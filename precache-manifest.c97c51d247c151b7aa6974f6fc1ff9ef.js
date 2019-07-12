@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a0fbbea33ec3a592b0f0b3bbb1890212",
+    "revision": "8dd79a2400aff6b458cffb993cdb5d15",
     "url": "/weichenglily/index.html"
   },
   {
-    "revision": "de29b9d0158c1ce003eb",
-    "url": "/weichenglily/static/css/main.e11a1e25.chunk.css"
+    "revision": "7a2979b3995d72d9f101",
+    "url": "/weichenglily/static/css/main.58d06fdf.chunk.css"
   },
   {
     "revision": "8927363ef23c66fb2763",
     "url": "/weichenglily/static/js/2.4da0bb8d.chunk.js"
   },
   {
-    "revision": "de29b9d0158c1ce003eb",
-    "url": "/weichenglily/static/js/main.8c08187f.chunk.js"
+    "revision": "7a2979b3995d72d9f101",
+    "url": "/weichenglily/static/js/main.ce5273d9.chunk.js"
   },
   {
     "revision": "2f9474bfe9a4a07c5eb6",
