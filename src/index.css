@@ -177,7 +177,7 @@ h1{
   width: 100%;
   margin: 2% 0;
   padding: 4%;
-	cursor: pointer;
+	/* cursor: pointer; */
 	display: table;
 	float: left;
 	position: relative;
@@ -188,7 +188,7 @@ h1{
 }
 .project-title{
   font-size: 28px;
-  padding: 5%;
+  padding: 1%;
 }
 .project-info{
   vertical-align: middle;

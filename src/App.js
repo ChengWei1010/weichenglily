@@ -42,7 +42,7 @@ function App(){
         <a className="nav-item" target="_blank" href="https://drive.google.com/file/d/14q--1Jai04kww3p0JD_hrt8MoGQ85b0N/view?usp=sharing"><span>resume</span></a>
         </nav>
 
-        {/* <Route exact path="/" component={Work}></Route> */}
+        <Route exact path="/" component={Work}></Route>
         <Route path="/work" component={Work}></Route>
         <Route path="/about" component={About}></Route>
         

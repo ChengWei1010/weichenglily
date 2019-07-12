@@ -8,7 +8,7 @@ function ProjectBlock(props){
     <div className="project-block">
       <div className="project-info">
         {props.year}<br></br>
-        <span className="project-title">{props.name}</span><br></br>
+        <div className="project-title">{props.name}</div>
         {props.category}
       </div>
       {/* <div className="col-2 project-thumbnail">
