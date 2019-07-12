@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/weichenglily/my-app/static/css/main.e11a1e25.chunk.css",
-    "main.js": "/weichenglily/my-app/static/js/main.23aa2f5c.chunk.js",
-    "main.js.map": "/weichenglily/my-app/static/js/main.23aa2f5c.chunk.js.map",
-    "runtime~main.js": "/weichenglily/my-app/static/js/runtime~main.15f86ceb.js",
-    "runtime~main.js.map": "/weichenglily/my-app/static/js/runtime~main.15f86ceb.js.map",
-    "static/js/2.4da0bb8d.chunk.js": "/weichenglily/my-app/static/js/2.4da0bb8d.chunk.js",
-    "static/js/2.4da0bb8d.chunk.js.map": "/weichenglily/my-app/static/js/2.4da0bb8d.chunk.js.map",
-    "index.html": "/weichenglily/my-app/index.html",
-    "precache-manifest.55ea79d43aa10ca9cc6e10d612b69033.js": "/weichenglily/my-app/precache-manifest.55ea79d43aa10ca9cc6e10d612b69033.js",
-    "service-worker.js": "/weichenglily/my-app/service-worker.js",
-    "static/css/main.e11a1e25.chunk.css.map": "/weichenglily/my-app/static/css/main.e11a1e25.chunk.css.map",
-    "static/media/favicon.png": "/weichenglily/my-app/static/media/favicon.fffda912.png",
-    "static/media/wei.jpg": "/weichenglily/my-app/static/media/wei.f6e3e0a3.jpg"
+    "main.css": "/weichenglily/static/css/main.e11a1e25.chunk.css",
+    "main.js": "/weichenglily/static/js/main.8c08187f.chunk.js",
+    "main.js.map": "/weichenglily/static/js/main.8c08187f.chunk.js.map",
+    "runtime~main.js": "/weichenglily/static/js/runtime~main.ddc9e83c.js",
+    "runtime~main.js.map": "/weichenglily/static/js/runtime~main.ddc9e83c.js.map",
+    "static/js/2.4da0bb8d.chunk.js": "/weichenglily/static/js/2.4da0bb8d.chunk.js",
+    "static/js/2.4da0bb8d.chunk.js.map": "/weichenglily/static/js/2.4da0bb8d.chunk.js.map",
+    "index.html": "/weichenglily/index.html",
+    "precache-manifest.0acbb88cbcee7d71649d1f753790471a.js": "/weichenglily/precache-manifest.0acbb88cbcee7d71649d1f753790471a.js",
+    "service-worker.js": "/weichenglily/service-worker.js",
+    "static/css/main.e11a1e25.chunk.css.map": "/weichenglily/static/css/main.e11a1e25.chunk.css.map",
+    "static/media/favicon.png": "/weichenglily/static/media/favicon.fffda912.png",
+    "static/media/wei.jpg": "/weichenglily/static/media/wei.f6e3e0a3.jpg"
   }
 }
