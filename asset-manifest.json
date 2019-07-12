@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/weichenglily/my-app/static/css/main.e11a1e25.chunk.css",
-    "main.js": "/weichenglily/my-app/static/js/main.23aa2f5c.chunk.js",
-    "main.js.map": "/weichenglily/my-app/static/js/main.23aa2f5c.chunk.js.map",
-    "runtime~main.js": "/weichenglily/my-app/static/js/runtime~main.15f86ceb.js",
-    "runtime~main.js.map": "/weichenglily/my-app/static/js/runtime~main.15f86ceb.js.map",
-    "static/js/2.4da0bb8d.chunk.js": "/weichenglily/my-app/static/js/2.4da0bb8d.chunk.js",
-    "static/js/2.4da0bb8d.chunk.js.map": "/weichenglily/my-app/static/js/2.4da0bb8d.chunk.js.map",
-    "index.html": "/weichenglily/my-app/index.html",
-    "precache-manifest.55ea79d43aa10ca9cc6e10d612b69033.js": "/weichenglily/my-app/precache-manifest.55ea79d43aa10ca9cc6e10d612b69033.js",
-    "service-worker.js": "/weichenglily/my-app/service-worker.js",
-    "static/css/main.e11a1e25.chunk.css.map": "/weichenglily/my-app/static/css/main.e11a1e25.chunk.css.map",
-    "static/media/favicon.png": "/weichenglily/my-app/static/media/favicon.fffda912.png",
-    "static/media/wei.jpg": "/weichenglily/my-app/static/media/wei.f6e3e0a3.jpg"
+    "main.css": "/my-app/static/css/main.e11a1e25.chunk.css",
+    "main.js": "/my-app/static/js/main.b284c5ea.chunk.js",
+    "main.js.map": "/my-app/static/js/main.b284c5ea.chunk.js.map",
+    "runtime~main.js": "/my-app/static/js/runtime~main.6019dd84.js",
+    "runtime~main.js.map": "/my-app/static/js/runtime~main.6019dd84.js.map",
+    "static/js/2.4da0bb8d.chunk.js": "/my-app/static/js/2.4da0bb8d.chunk.js",
+    "static/js/2.4da0bb8d.chunk.js.map": "/my-app/static/js/2.4da0bb8d.chunk.js.map",
+    "index.html": "/my-app/index.html",
+    "precache-manifest.23c2403dd8622e6e2ef6175faf69bc3e.js": "/my-app/precache-manifest.23c2403dd8622e6e2ef6175faf69bc3e.js",
+    "service-worker.js": "/my-app/service-worker.js",
+    "static/css/main.e11a1e25.chunk.css.map": "/my-app/static/css/main.e11a1e25.chunk.css.map",
+    "static/media/favicon.png": "/my-app/static/media/favicon.fffda912.png",
+    "static/media/wei.jpg": "/my-app/static/media/wei.f6e3e0a3.jpg"
   }
 }
