@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/weichenglily/static/css/main.50e3fc41.chunk.css",
-    "main.js": "/weichenglily/static/js/main.15777eb6.chunk.js",
-    "main.js.map": "/weichenglily/static/js/main.15777eb6.chunk.js.map",
-    "runtime~main.js": "/weichenglily/static/js/runtime~main.ddc9e83c.js",
-    "runtime~main.js.map": "/weichenglily/static/js/runtime~main.ddc9e83c.js.map",
-    "static/js/2.4da0bb8d.chunk.js": "/weichenglily/static/js/2.4da0bb8d.chunk.js",
-    "static/js/2.4da0bb8d.chunk.js.map": "/weichenglily/static/js/2.4da0bb8d.chunk.js.map",
-    "index.html": "/weichenglily/index.html",
-    "precache-manifest.0730c06de2457a001423ef26a79314ed.js": "/weichenglily/precache-manifest.0730c06de2457a001423ef26a79314ed.js",
-    "service-worker.js": "/weichenglily/service-worker.js",
-    "static/css/main.50e3fc41.chunk.css.map": "/weichenglily/static/css/main.50e3fc41.chunk.css.map",
-    "static/media/favicon.png": "/weichenglily/static/media/favicon.fffda912.png",
-    "static/media/wei.jpg": "/weichenglily/static/media/wei.f6e3e0a3.jpg"
+    "main.css": "/static/css/main.50e3fc41.chunk.css",
+    "main.js": "/static/js/main.9b266808.chunk.js",
+    "main.js.map": "/static/js/main.9b266808.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/js/2.4da0bb8d.chunk.js": "/static/js/2.4da0bb8d.chunk.js",
+    "static/js/2.4da0bb8d.chunk.js.map": "/static/js/2.4da0bb8d.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.6a9c5d804388e95ff28e0bdd17693f4b.js": "/precache-manifest.6a9c5d804388e95ff28e0bdd17693f4b.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.50e3fc41.chunk.css.map": "/static/css/main.50e3fc41.chunk.css.map",
+    "static/media/favicon.png": "/static/media/favicon.fffda912.png",
+    "static/media/wei.jpg": "/static/media/wei.f6e3e0a3.jpg"
   }
 }
