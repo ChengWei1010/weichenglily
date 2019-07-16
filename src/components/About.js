@@ -8,7 +8,7 @@ function About(){
   return(
   <div className="content-container">
     <h1>Howdy! I'm Wei.</h1>
-      <div className="col-70-percent">
+      <div className="col col-70-percent">
       <p>
       (You can pronounce “Wei” like “way”) <br></br>
       
@@ -28,7 +28,7 @@ function About(){
       Thank you for visiting my portfolio :)
       </p>
     </div>
-    <div className="col-30-percent">
+    <div className="col col-30-percent">
     <img src={require("../wei.jpg")} alt="wei" className="img-wei"/>
     {/* <Image name="wei" path="../wei.jpg" size="img-wei"/> */}
     </div>
