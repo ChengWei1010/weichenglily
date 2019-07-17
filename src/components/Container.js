@@ -7,7 +7,10 @@ function Container(){
 
   return(
     <div>
-        this is c
+                    <Route exact path="/" component={Work}></Route>
+            <Route path="/work" component={Work}></Route>
+            <Route path="/about" component={About}></Route>
+            <Route path="/recycle" component={Recycle}></Route>
     </div>
   )
 }
