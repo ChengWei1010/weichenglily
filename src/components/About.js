@@ -1,8 +1,5 @@
 import React from "react"
 import Emoji from "./Emoji.js"
-// import Footer from "../components/Footer.js"
-// import Image from "../components/Image.js"
-// import imgWei from "../wei.jpg";
 
 function About(){
 

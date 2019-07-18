@@ -16,7 +16,7 @@ function Work(){
         year="2019"
         name="Recycling Truck"
         category="Design Research"
-        description="A design thinking research about trash and recycling."/>
+        description="Design thinking research about trash and recycling."/>
       {/* <div className="col project-thumbnail"><img src={recycle00} alt="thumbnail" className="img-thumbnail"></img></div> */}
     </div>
     </Link>
@@ -38,7 +38,7 @@ function Work(){
         year="2019"
         name="QEESI"
         category="UX Research"
-        description="Usability research for UT San Antonio Health online questionaire."/>
+        description="Usability research for UT Health San Antonio online questionaire."/>
       <div className="col project-thumbnail"><img src={qeesi00} alt="thumbnail" className="img-thumbnail"></img></div>
     </div>
     </Link>
