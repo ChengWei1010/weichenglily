@@ -1,4 +1,5 @@
 import React from "react"
+import Emoji from "./Emoji.js"
 // import Footer from "../components/Footer.js"
 // import Image from "../components/Image.js"
 // import imgWei from "../wei.jpg";
@@ -7,8 +8,9 @@ function About(){
 
   return(
   <div className="content-container">
-      <h1>I'm Wei. I love to design, enjoy food, and exercise.</h1>
-      <div className="col col-70-percent">
+      
+      <div className="col col-60-percent">
+      <h1>Hello!</h1>
       <p>
       (You can pronounce “Wei” like “way”)<br></br>
       
@@ -21,14 +23,23 @@ function About(){
       <br></br>
       
       I'm currently an <b>UI/UX Design Intern</b> at Visual BI Solutions,
-      I enjoy designing for business intelligence tools and Microsoft Power BI Custom Visuals here!<br></br>
+      I enjoy designing for business intelligence tools and Microsoft Power BI Custom Visuals here.<br></br>
 
       <br></br>
       
-      Thank you for visiting my portfolio :)
+      In my spare time I like to
+      cook <Emoji symbol="🍳"/>, 
+      hiking <Emoji symbol="⛰"/>, 
+      and doing yoga <Emoji symbol="🧘🏻‍♀️"/>.
+      <br></br>
+      
+      Thank you for visiting my portfolio :)<br></br>
       </p>
+      <a target="_blank" href="https://drive.google.com/file/d/14q--1Jai04kww3p0JD_hrt8MoGQ85b0N/view?usp=sharing">
+        <span className="highlight">View Wei's resume</span>
+      </a>
     </div>
-    <div className="col col-30-percent">
+    <div className="col col-40-percent">
     <img src={require("../wei.jpg")} alt="wei" className="img-wei"/>
     {/* <Image name="wei" path="../wei.jpg" size="img-wei"/> */}
     </div>

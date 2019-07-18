@@ -5,7 +5,9 @@ import Footer from './components/Footer.js';
 import { BrowserRouter as Router, Route, NavLink } from "react-router-dom";
 import About from "./components/About.js"
 import Work from "./components/Work.js"
-import Recycle from "./components/work/Recycle.js"
+import Recycle from "./components/Work/Recycle.js"
+import Qeesi from "./components/Work/Qeesi.js"
+import Steve from "./components/Work/Steve.js"
 
 // function App() {
 //   return (
@@ -34,18 +36,14 @@ import Recycle from "./components/work/Recycle.js"
 function App(){
   return(
       <div className="wrapper">
-        <Header />
-
-        <nav className="nav">
-          <NavLink to="/work" className="nav-item" activeClassName="active">work</NavLink>
-          <NavLink to="/about" className="nav-item" activeClassName="active">about</NavLink>
-          <a className="nav-item" target="_blank" href="https://drive.google.com/file/d/14q--1Jai04kww3p0JD_hrt8MoGQ85b0N/view?usp=sharing"><span>resume</span></a>
-        </nav>
+        <Header/>
 
         <Route exact path="/" component={Work}></Route>
         <Route path="/work" component={Work}></Route>
         <Route path="/about" component={About}></Route>
         <Route path="/recycle" component={Recycle}></Route>
+        <Route path="/qeesi" component={Qeesi}></Route>
+        <Route path="/steve" component={Steve}></Route>
 
         <Footer />
       </div>
