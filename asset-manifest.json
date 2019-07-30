@@ -1,18 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.8cc5dd7f.chunk.css",
-    "main.js": "/static/js/main.72788074.chunk.js",
-    "main.js.map": "/static/js/main.72788074.chunk.js.map",
+    "main.css": "/static/css/main.781d864f.chunk.css",
+    "main.js": "/static/js/main.95de956a.chunk.js",
+    "main.js.map": "/static/js/main.95de956a.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
     "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/js/2.9c76a090.chunk.js": "/static/js/2.9c76a090.chunk.js",
-    "static/js/2.9c76a090.chunk.js.map": "/static/js/2.9c76a090.chunk.js.map",
+    "static/js/2.bbb6f21a.chunk.js": "/static/js/2.bbb6f21a.chunk.js",
+    "static/js/2.bbb6f21a.chunk.js.map": "/static/js/2.bbb6f21a.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.4960200942d9209ba16fcb58ad318b7c.js": "/precache-manifest.4960200942d9209ba16fcb58ad318b7c.js",
+    "precache-manifest.b4a82bc26d1ead2959a068c56e717e35.js": "/precache-manifest.b4a82bc26d1ead2959a068c56e717e35.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.8cc5dd7f.chunk.css.map": "/static/css/main.8cc5dd7f.chunk.css.map",
+    "static/css/main.781d864f.chunk.css.map": "/static/css/main.781d864f.chunk.css.map",
     "static/media/qeesi00.png": "/static/media/qeesi00.2568e711.png",
-    "static/media/recycle00.png": "/static/media/recycle00.a5e0264c.png",
+    "static/media/recycleAssumption.svg": "/static/media/recycleAssumption.7db02651.svg",
+    "static/media/recycleBox.png": "/static/media/recycleBox.ef4f629d.png",
+    "static/media/recycleCover.png": "/static/media/recycleCover.ebd45b0c.png",
+    "static/media/recycleFrame.svg": "/static/media/recycleFrame.91786096.svg",
+    "static/media/recycleHMW.png": "/static/media/recycleHMW.853a7fc8.png",
+    "static/media/recycleInsights.png": "/static/media/recycleInsights.9584d040.png",
+    "static/media/recycleProcess.svg": "/static/media/recycleProcess.c93120e9.svg",
+    "static/media/recycleThemes.png": "/static/media/recycleThemes.ac0e09f7.png",
     "static/media/wei.jpg": "/static/media/wei.c4156efc.jpg"
   }
 }
