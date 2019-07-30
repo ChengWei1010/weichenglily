@@ -9,18 +9,9 @@ import Box from "./img/recycleBox.png"
 import Process from "./img/recycleProcess.svg"
 import Assumption from "./img/recycleAssumption.svg"
 import Frame from "./img/recycleFrame.svg"
-import Theme1 from "./img/recycleTheme1.svg"
-import Theme2 from "./img/recycleTheme2.svg"
+import Themes from "./img/recycleThemes.png"
 import HMW from "./img/recycleHMW.png"
-
-library.add(fab)
-function hover(element) {
-  element.setAttribute('src', 'http://dummyimage.com/100x100/eb00eb/fff');
-}
-
-function unhover(element) {
-  element.setAttribute('src', 'http://dummyimage.com/100x100/000/fff');
-}
+import Insights from "./img/recycleInsights.png"
 
 function Recycle(){
 
@@ -74,12 +65,12 @@ function Recycle(){
         </article>
 
         <article>
-          <h3>Problem Frame</h3>         
+        <h3>Problem Frame</h3>
           <div className="col col-50-percent">
             <p>
+            <Quote h2="Problem Frame:" text="Improving the recycling facilities and people’s awareness of effects about unusual waste."></Quote>
             Since design thinking is a <mark>problem finding</mark> more than a problem solving process,
             based on the assumptions, we want to find a specific problem space that we want to explore around the topic about disposing unusual waste.
-           <Quote h2="Problem Frame:" text="Improving the recycling facilities and people’s awareness of effects about unusual waste."></Quote>
             </p>
           </div>
           <div className="col col-50-percent">
@@ -94,22 +85,41 @@ function Recycle(){
         <article>
           <h3>Background Research</h3>
         </article>
-
-        <h3>Intercept Interview</h3>
-
-        <h3>Contextual Interview</h3>
+        <article>
+          <h3>Intercept Interview</h3>
+        </article>
+        <article>
+          <h3>Contextual Interview</h3>
+        </article>
       </section>
 
 
       <section><h2>Ideate</h2>
+      <article>
         <h3>Create Themes</h3>
-        We wrote the quotes from interviewees on sticky notes, and categorized them by similar categories and topics:
-        <img src={Theme1} className="img-work-large"></img>
-        <img src={Theme2} className="img-work-large"></img>
+        <img src={Themes} className="img-work-large"></img>
+        <p>We wrote the quotes from interviewees on sticky notes, and categorized them by similar categories and topics:
+        Regarding the issue about recycling unusual materials, people have these themes about this problem:</p>
+      </article>
+
+      <article>
         <h3>Insights</h3>
-        
+        <div className="col col-50-percent"><img src={Insights} className="img-work-large"></img></div>
+        <div className="col col-50-percent">
+          <p>
+          We created insights based on research themes and results:
+          <ol>
+          <li>Going to drop off center is inconvenient because of transportation and time concerns, so people don't want to commit their efforts.</li>
+          <li>When people are confused about recycling, they don't tend to look up for information, instead they ignore and hide their problems.</li>
+          <li>When people see real situation and damage of the environment, these evidence can motivate people to form better recycling habits.</li>
+          <li>People tend to change their recycling habits to match people around them.</li>
+          </ol>
+          </p>
+        </div>
+      </article> 
+      <article>
         <h3>How Might We</h3>
-        <img src={HMW} className="img-work-large"></img>
+        </article>
 
         <h3>Ideation</h3>
       </section>      
