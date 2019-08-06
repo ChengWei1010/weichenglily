@@ -19,8 +19,8 @@ function ProjectBlock(props){
     // </div>
     <div className="col project-info">
       <span>{props.year}<br></br></span>
-      <span className="project-name">{props.name}</span><br></br>
-      <span className="project-category">{props.category}</span><br></br>
+      <span className="project-name">{props.name}</span>
+      <span className="project-category">{props.category}</span>
       <span>{props.description}</span>
     </div>
 	

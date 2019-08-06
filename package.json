@@ -16,7 +16,8 @@
     "react-dom": "^16.8.6",
     "react-pdf": "^4.1.0",
     "react-router-dom": "^5.0.1",
-    "react-scripts": "3.0.1"
+    "react-scripts": "3.0.1",
+    "scrollprogress": "^3.0.2"
   },
   "scripts": {
     "predeploy": "npm run build",

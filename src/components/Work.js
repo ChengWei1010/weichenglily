@@ -9,14 +9,17 @@ function Work(){
 
   return (
     <div className="content-container">
-
+      {/* <div className="intro">
+      I'm a <b>UI/UX Designer</b> who cares about using design to improve people's <b>experience.</b><br></br><br></br>
+      Currently exploring business intelligence and dashboard designs at <b>VisualBI Solutions</b> in Plano, TX as an intern.
+      </div> */}
+    <div className="works-container">
     <Link to="/recycle">
     <div className="project-block work-recycle">
       <ProjectBlock
         year="2019"
-        name="Recycling Truck"
-        category="Design Research"
-        description="Design thinking research about trash and recycling."/>
+        name="The Recycling Truck"
+        category="Design Research"/>
       {/* <div className="col project-thumbnail"><img src={recycle00} alt="thumbnail" className="img-thumbnail"></img></div> */}
     </div>
     </Link>
@@ -26,8 +29,7 @@ function Work(){
       <ProjectBlock
         year="2019"
         name="Steve.ai"
-        category="UX Research and Design"
-        description="Artificial Intelligence experience design about career change."/>
+        category="UX Research and Design"/>
       <div className="col project-thumbnail"><img src={steve00} alt="thumbnail" className="img-thumbnail"></img></div>
     </div>
     </Link>
@@ -37,12 +39,11 @@ function Work(){
       <ProjectBlock
         year="2019"
         name="QEESI"
-        category="UX Research"
-        description="Usability research for UT Health San Antonio online questionaire."/>
+        category="Usability Research"/>
       <div className="col project-thumbnail"><img src={qeesi00} alt="thumbnail" className="img-thumbnail"></img></div>
     </div>
     </Link>
-
+    </div>
   </div>      
   )
 }
