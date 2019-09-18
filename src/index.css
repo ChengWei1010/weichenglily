@@ -7,6 +7,8 @@ body {
   font-family: 'Catamaran', sans-serif;
   background: #FAFAFA;
   font-size: 18px;
+  color: rgb(85, 85, 85);
+  line-height: 30px;
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
@@ -15,41 +17,41 @@ code {
 /* structure */
 /*******************************************************************************/
 /*******************************************************************************/
-header, section, .section-head, .content-container{
-  width: 64%;
+header, .section-head, .content-container{
+  width: 60%;
+  padding: 0 20%;
+  display: inline-block;
 }
 header{
-  margin: 3% 18%;
+  margin: 3% 0;
   clear: left;
 	font-size: 24px;
   color: #a0a0a0;
   vertical-align: middle;
 }
 section{
-  padding: 0 18%;
-  display: inline-block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 4%;
-  padding-bottom: 4%;
+  margin: 0;
 }
 .section-head, .content-container{
-  padding: 0 0 4% 0 !important;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  padding-bottom: 2%;
+  margin: 0;
 }
 .works-container{
  width: 110%;
  margin-left: -5%;
 }
-.section-full{
-  padding: 1% 4%;
-  width: 92%;
+.width-60{
+  width: 60%;
+  padding: 0 20%;
+  display: inline-block;
+}
+.width-full{
+  padding: 1% 8%;
+  width: 84%;
   display: inline-block;
   margin-left: auto;
   margin-right: auto;
-  background-color: #f1f1f1;
+  margin: 6% 0 0 0;
 }
 
 .section:after {
@@ -63,11 +65,11 @@ section{
 }
 article{
   width: 100%;
-  padding-bottom: 6%;
+  padding-bottom: 10%;
   display: inline-block;
 }
 footer{
-  padding: 4% 0;
+  padding: 3% 0;
   clear: left;
   text-align: center;
 	font-size: 18px;
@@ -106,7 +108,10 @@ footer{
 }
 b{
   font-weight: bold;
-  color: #111; 
+  color: rgb(61, 61, 61); 
+}
+u{
+  text-underline-position: under;
 }
 .active{
   color: #383838 !important;
@@ -138,9 +143,6 @@ a{
   color: inherit; 
 }
 p{
-  color: #616161;
-  font-size: 1em;
-  line-height: 1.5;
   margin-bottom: .823em;
   margin-top: 0;
   white-space: pre-line;
@@ -148,19 +150,29 @@ p{
 h1, h2{
   color: #313131;
   font-family: 'Rubik', sans-serif;
+  line-height: 1.2em;
+  font-weight: 600;
 }
 h1{
-  font-size: 35px;
+  font-size: 46px;
 }
 h2{
   font-size: 1.8em;
 }
 h3{
-  font-size: 17px;
+  font-size: 18px;
+  font-weight: 900;
+  letter-spacing:2px;
+  text-transform: uppercase;
+  color: rgb(0, 0, 0);
+  margin: 1% 0;
+}
+h4{
+  font-size: 14px;
   font-weight: 800;
   letter-spacing:2px;
   text-transform: uppercase;
-  color: #7e7e7e;
+  color: rgb(136, 136, 136);
   margin: 1% 0;
 }
 ol{
@@ -172,7 +184,9 @@ ol li{
   display: block;
   list-style-position:inside;
 }
-
+li{
+  margin-bottom: 3%;
+}
 ol li::before {
   content: counter(ol-counter, decimal-leading-zero);
   counter-increment: ol-counter;
@@ -213,6 +227,7 @@ ol li::before {
 
 .divider{
   text-align: center;
+  margin: 4% 0;
 }
 .dot{
   height: 6px;
@@ -246,6 +261,13 @@ ol li::before {
   float: left;
   padding-right: 3%;
 }
+.col-close{
+  float: left;
+  padding-right: 1%;
+}
+.col-align-right{
+  float: left;
+}
 .col-50-percent{
   width: 46%;
 }
@@ -261,18 +283,24 @@ ol li::before {
 .col-40-percent{
   width: 36%;
 }
+.col-33-percent{
+  width: 32%;
+}
 .col-30-percent{
   width: 26%;
 }
 .col-20-percent{
   width: 16%;
 }
+.row{
+  float: left;
+}
 .box-border-left{
   float: left;
   border-left: 1px solid #242424;
   margin-bottom: 30px;
-  margin-right: 3%;
-  padding-left: 5%;
+  margin-right: 2%;
+  padding-left: 4%;
 }
 
 /* font awesome icons */
@@ -391,53 +419,64 @@ ol li::before {
 @media screen and (max-width: 650px) {
   header, section, .section-head, .content-container {
     width: 90%;
+    padding: 5%;
   }
   header {
-    margin: 3% 5% 15% 5%;
+    margin: 0;
     clear: left;
     font-size: 24px;
     color: #a0a0a0;
     vertical-align: middle;
   }
   section {
-    padding: 0 5%;
+    padding: 0 8%;
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 4%;
   }
   .quote {
-    padding: 10%;
+    padding: 4% 4% 10% 4%;
     margin: 4% 0;
     text-align: center;
     font-weight: 200;
-    font-size: 20px;
+    font-size: 18px;
     border-top: 1px solid #dfdfdf;
     border-bottom: 1px solid #dfdfdf;
     color: #464646;
-    background-color: whitesmoke;
+    background-color:#e7e7e7;
 }
-  .col{
+  .col, .col-align-right{
     width: 100%;
     float: left;
   }
+  .project-block{
+    width: 100%;
+    margin: 2% 0;
+    display: table;
+    float: left;
+    position: relative;
+    text-align: center;
+    transition: all .2s ease-in-out;
+  }
   .project-info{
     vertical-align: middle;
-    text-align: left;
+    text-align: center;
     width: 84%;
     padding: 8%;
     color: rgb(80, 80, 80);
   }
   .img-thumbnail {
-    width: 80%;
-    padding: 0 5%;
+    width: 60%;
+    margin-top: -5%;
+    padding: 0 20% 5% 20%;
 }
   .img-wei{
     padding-top: 5%;
     width: 100%;
   }
   .wrapper{
-    padding: 5% 6%;
+    padding: 3%;
   }
   .title-sub{
     display: none;
