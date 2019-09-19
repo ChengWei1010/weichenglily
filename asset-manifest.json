@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.bfdd54da.chunk.css",
+    "main.css": "/static/css/main.5db5448a.chunk.css",
     "main.js": "/static/js/main.0558b30c.chunk.js",
     "main.js.map": "/static/js/main.0558b30c.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
@@ -8,9 +8,9 @@
     "static/js/2.858dc88f.chunk.js": "/static/js/2.858dc88f.chunk.js",
     "static/js/2.858dc88f.chunk.js.map": "/static/js/2.858dc88f.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.dcfcd15569843cb6d35f812f673bbc15.js": "/precache-manifest.dcfcd15569843cb6d35f812f673bbc15.js",
+    "precache-manifest.9c1d86d0a8cc3a5d7f316f4388b539c9.js": "/precache-manifest.9c1d86d0a8cc3a5d7f316f4388b539c9.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.bfdd54da.chunk.css.map": "/static/css/main.bfdd54da.chunk.css.map",
+    "static/css/main.5db5448a.chunk.css.map": "/static/css/main.5db5448a.chunk.css.map",
     "static/media/qeesi00.png": "/static/media/qeesi00.2568e711.png",
     "static/media/recycleAssumption.png": "/static/media/recycleAssumption.89fa9ad8.png",
     "static/media/recycleBox.png": "/static/media/recycleBox.ef4f629d.png",
