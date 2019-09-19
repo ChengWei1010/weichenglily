@@ -151,7 +151,7 @@ h1, h2{
   color: #313131;
   font-family: 'Rubik', sans-serif;
   line-height: 1.2em;
-  font-weight: 600;
+  font-weight: 500;
 }
 h1{
   font-size: 46px;
@@ -449,6 +449,10 @@ ol li::before {
   .col, .col-align-right{
     width: 100%;
     float: left;
+  }
+  .width-60{
+    width: 94%;
+    padding: 0 3%;
   }
   .project-block{
     width: 100%;
