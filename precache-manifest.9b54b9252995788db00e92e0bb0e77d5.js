@@ -1,23 +1,47 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "db81e8152c9e8e043754cf98fc2eb549",
+    "revision": "f7efcdc34291ea2a7553dd6745406a75",
     "url": "/index.html"
   },
   {
-    "revision": "54b82d39cfe5dfb4af5c",
-    "url": "/static/css/main.5db5448a.chunk.css"
+    "revision": "25cfdfe89049aeb2d0dc",
+    "url": "/static/css/main.eddb931f.chunk.css"
   },
   {
-    "revision": "67106ffcb9e4fb933816",
-    "url": "/static/js/2.858dc88f.chunk.js"
+    "revision": "4e3edfae7f8d8e177582",
+    "url": "/static/js/2.471eafcd.chunk.js"
   },
   {
-    "revision": "54b82d39cfe5dfb4af5c",
-    "url": "/static/js/main.0558b30c.chunk.js"
+    "revision": "25cfdfe89049aeb2d0dc",
+    "url": "/static/js/main.b167ec9f.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
     "url": "/static/js/runtime~main.a8a9905a.js"
+  },
+  {
+    "revision": "d47120ca038eca5e3eda4f2a8193ed32",
+    "url": "/static/media/DataDiary1.d47120ca.png"
+  },
+  {
+    "revision": "cc9624c4eceb78922c126fce6ec2fac8",
+    "url": "/static/media/LogoW.cc9624c4.png"
+  },
+  {
+    "revision": "47ed8747abe11b52ccfea2df578490ed",
+    "url": "/static/media/calli-1.47ed8747.png"
+  },
+  {
+    "revision": "f9bc6b28d84dbb30c87de0572a6e1758",
+    "url": "/static/media/calli-2.f9bc6b28.png"
+  },
+  {
+    "revision": "88d232a2412fb063fa7b4f47c6ccbbf2",
+    "url": "/static/media/calli-3.88d232a2.png"
+  },
+  {
+    "revision": "1abd7f6f66a6c76838c8b38c21a89be5",
+    "url": "/static/media/calli-4.1abd7f6f.png"
   },
   {
     "revision": "2568e711fec5c556dba190dc35964d01",
@@ -82,6 +106,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "380978fac51fae2974e79063d0d2ba4a",
     "url": "/static/media/recycleThemes.380978fa.png"
+  },
+  {
+    "revision": "56d2f21042325df1f8894edb08032084",
+    "url": "/static/media/sunflower.56d2f210.gif"
+  },
+  {
+    "revision": "2bec8403da5ff61e8734e528cd989276",
+    "url": "/static/media/sunrise.2bec8403.jpg"
+  },
+  {
+    "revision": "bd65d6a1b33c7e2a4157bb22f2d28b71",
+    "url": "/static/media/sunset.bd65d6a1.jpg"
   },
   {
     "revision": "c4156efcd63ee4cc1aa9408ddb0b100e",
