@@ -4,7 +4,7 @@ import Emoji from "./Emoji.js"
 function About(){
 
   return(
-  <div className="content-container">
+    <section className="section-body-middle">
       
       <div className="col col-60-percent">
       <h1>Hello!</h1>
@@ -40,7 +40,7 @@ function About(){
     <img src={require("../wei.jpg")} alt="wei" className="img-wei"/>
     {/* <Image name="wei" path="../wei.jpg" size="img-wei"/> */}
     </div>
-  </div>
+  </section>
   )
 }
 export default About

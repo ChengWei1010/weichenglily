@@ -8,7 +8,7 @@ import steve00 from "./Work/steve00.png"
 function Work(){
 
   return (
-    <div className="content-container">
+    <section className="section-body-middle">
       {/* <div className="intro">
       I'm a <b>UI/UX Designer</b> who cares about using design to improve people's <b>experience.</b><br></br><br></br>
       Currently exploring business intelligence and dashboard designs at <b>VisualBI Solutions</b> in Plano, TX as an intern.
@@ -44,7 +44,7 @@ function Work(){
     </div>
     </Link>
     </div>
-  </div>      
+  </section>      
   )
 }
 export default Work

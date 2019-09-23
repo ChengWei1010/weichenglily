@@ -25,7 +25,7 @@ import Intercept3 from "./img/recycleIntercept3.png"
 function Recycle(){
 
   return(
-    <div>
+    <section className="section-work-body">
       {/* <FontAwesomeIcon
         icon={faArrowLeft}
         className="fa-back"
@@ -56,13 +56,13 @@ function Recycle(){
       
       <Divider/>
 
-      <section className="width-60"><h2>Design Process</h2>
+      <section className="section-body-middle"><h2>Design Process</h2>
         <img src={Process} className="img-work-large"/>
       </section>
 
       <Divider/>
 
-      <section className="width-60"><h2>1 - Problem Space</h2>         
+      <section className="section-body-middle"><h2>1 - Problem Space</h2>         
         <article>
         <div className="col col-50-percent">
           <h3>Our Story</h3>
@@ -93,7 +93,7 @@ function Recycle(){
 
       <Divider/>
 
-      <section className="width-60"><h2>2 - Research</h2>
+      <section className="section-body-middle"><h2>2 - Research</h2>
         <article>
           <h3>Subject Matter Expert Interview</h3>
           <div className="col col-50-percent">
@@ -141,7 +141,7 @@ function Recycle(){
       <Divider/>
 
       
-      <section className="width-full">
+      <section className="section-width-full">
       <h2>Research Findings</h2>
       <p>After the research, we wrote the quotes from all interviewees on sticky notes and categorized them by similar themes:</p>
 
@@ -161,7 +161,7 @@ function Recycle(){
         </div>
       </section>
 
-      <section className="width-full">
+      <section className="section-width-full">
         <p>
           <div className="col col-40-percent"><img src={Insights} className="img-work-large"></img></div>
           <div className="col-align-right col-60-percent">
@@ -178,7 +178,7 @@ function Recycle(){
 
       </section>
 
-      <section className="width-60">
+      <section className="section-body-middle">
         <article>
         <Quote
           h2="How might we..."
@@ -187,17 +187,16 @@ function Recycle(){
         </article>
       </section>
 
-      <section className="width-60">
+      <section className="section-body-middle">
         <h2>3 - Ideation</h2>
         <p>We brainstormed and came up with several creative digital and physical solutions to fix people's pain points and followed the research insights.</p>
         <img src={Ideation} className="img-work-large"></img>
       </section>
       
-      
-
       <Divider/>
 
-      <section className="width-60"><h2>4 - Prototype</h2>
+      <section className="section-body-middle">
+        <h2>4 - Prototype</h2>
       <p>We picked the <mark>recycling truck</mark> for prototype testing.
         The purpose of prototyping is to actually tested with people, to learn from feedbacks and iterate our design.</p>
  
@@ -245,13 +244,15 @@ function Recycle(){
 
       <Divider/> */}
       
-      <section className="width-60"><h2>Reflection</h2>
+      <section className="section-body-middle">
+        <h2>Reflection</h2>
         <p>I really enjoyed doing this project because I really understanding how to conduct a research from a design thinking and human-centered perspective.
           I learned precious experience in every step from problem finding to research, from insights generation to final design.
           In addition, I knew more about recycling and my own living environment, it's very inspiring and I'm glad that we brought environmental awareness to people around us!</p>
       </section>
       {/* <ScrollProgress className="progress-bar"/> */}
-  </div>
+  
+  </section>
   )
 }
 export default Recycle

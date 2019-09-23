@@ -5,6 +5,8 @@ import Footer from './components/Footer.js';
 import { BrowserRouter as Router, Route, NavLink } from "react-router-dom";
 import About from "./components/About.js"
 import Work from "./components/Work.js"
+import Illustrations from "./components/Illustrations.js"
+
 import Recycle from "./components/Work/Recycle.js"
 import Qeesi from "./components/Work/Qeesi.js"
 import Steve from "./components/Work/Steve.js"
@@ -41,6 +43,7 @@ function App(){
         <Route exact path="/" component={Work}></Route>
         <Route path="/work" component={Work}></Route>
         <Route path="/about" component={About}></Route>
+        <Route path="/Illustrations" component={Illustrations}></Route>
         <Route path="/recycle" component={Recycle}></Route>
         <Route path="/qeesi" component={Qeesi}></Route>
         <Route path="/steve" component={Steve}></Route>
