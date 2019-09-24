@@ -4,7 +4,7 @@ import Emoji from "./Emoji.js"
 function About(){
 
   return(
-    <section className="section-body-middle">
+    <section className="section-body-last">
       
       <div className="col col-60-percent">
       <h1>Hello!</h1>

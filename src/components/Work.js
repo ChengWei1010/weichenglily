@@ -8,11 +8,8 @@ import steve00 from "./Work/steve00.png"
 function Work(){
 
   return (
-    <section className="section-body-middle">
-      {/* <div className="intro">
-      I'm a <b>UI/UX Designer</b> who cares about using design to improve people's <b>experience.</b><br></br><br></br>
-      Currently exploring business intelligence and dashboard designs at <b>VisualBI Solutions</b> in Plano, TX as an intern.
-      </div> */}
+    <section className="section-body-last">
+      <div className="intro">Hi, I'm Wei<br></br>a passionate UX designer based in Austin, TX</div>
     <div className="works-container">
     <Link to="/recycle">
     <div className="project-block work-recycle">
@@ -34,15 +31,17 @@ function Work(){
     </div>
     </Link>
 
-    <Link to="/qeesi">
-    <div className="project-block work-qeesi">
-      <ProjectBlock
-        year="2019"
-        name="QEESI"
-        category="Usability Research"/>
-      <div className="col project-thumbnail"><img src={qeesi00} alt="thumbnail" className="img-thumbnail"></img></div>
-    </div>
-    </Link>
+    {/* <Link to="/qeesi"> */}
+    <a target="_blank" href="https://drive.google.com/file/d/1Id-Vw4HyPX87aj-0kCcqqAyWDaPA3zkJ/view">
+      <div className="project-block work-qeesi">
+        <ProjectBlock
+          year="2019"
+          name="QEESI"
+          category="Usability Research"/>
+        <div className="col project-thumbnail"><img src={qeesi00} alt="thumbnail" className="img-thumbnail"></img></div>
+      </div>
+    </a>
+    {/* </Link> */}
     </div>
   </section>      
   )

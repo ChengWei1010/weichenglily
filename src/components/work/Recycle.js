@@ -244,7 +244,7 @@ function Recycle(){
 
       <Divider/> */}
       
-      <section className="section-body-middle">
+      <section className="section-body-middle section-body-last">
         <h2>Reflection</h2>
         <p>I really enjoyed doing this project because I really understanding how to conduct a research from a design thinking and human-centered perspective.
           I learned precious experience in every step from problem finding to research, from insights generation to final design.

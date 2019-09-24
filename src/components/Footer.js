@@ -7,7 +7,7 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 library.add(fab)
 
 function Footer(){
-  const version = "WEI CHENG | Sep 2019"
+  const version = "designed and coded by WEI CHENG | Sep 2019"
 
   return(
     <footer>

@@ -6,7 +6,7 @@ function Header(){
   return(
     <header>
       <Link to="/work" activeClassName="active">
-        <span className="title-main">Wei Cheng</span>
+        <div className="title-main">Wei Cheng</div>
         {/* <span className="title-sub"> - UIUX Designer</span> */}
       </Link>
       <NavLink to="/illustrations" className="nav-item" activeClassName="active">illustrations</NavLink>
