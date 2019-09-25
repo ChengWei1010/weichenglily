@@ -3,11 +3,12 @@ import React from "react"
 function Steve(){
 
   return(
-    <div className="content-container">
-      <h1>Steve.ai</h1>
-      <p>coming soon!</p>
-
-  </div>
+    <section className="section-work-body">
+      <section className="section-head">
+        <h1>Steve.ai</h1>
+        <p>coming soon!</p>
+      </section>
+    </section>
   )
 }
 export default Steve
