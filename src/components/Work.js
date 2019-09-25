@@ -9,13 +9,13 @@ function Work(){
 
   return (
     <section className="section-body-last">
-      <div className="intro">Hi, I'm Wei<br></br>a passionate UX designer based in Austin, TX</div>
+      <div className="intro">Hi, I'm Wei,<br></br>a passionate UX designer based in Austin, TX</div>
     <div className="works-container">
     <Link to="/recycle">
     <div className="project-block work-recycle">
       <ProjectBlock
         year="2019"
-        name="The Recycling Truck"
+        name="Recycling Truck"
         category="Design Research"/>
       {/* <div className="col project-thumbnail"><img src={recycle00} alt="thumbnail" className="img-thumbnail"></img></div> */}
     </div>
