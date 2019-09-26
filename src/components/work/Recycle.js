@@ -21,6 +21,7 @@ import Contextual2 from "./img/recycleContextual2.png"
 import Intercept1 from "./img/recycleIntercept1.png"
 import Intercept2 from "./img/recycleIntercept2.png"
 import Intercept3 from "./img/recycleIntercept3.png"
+import JM1 from "./img/recycleJM1.png"
 
 function Recycle(){
 
@@ -175,7 +176,12 @@ function Recycle(){
             </ol>
           </div>
         </p>
+      </section>
 
+      <section className="section-width-full">
+        <p>
+          <img src={JM1} className="img-work-large"></img>
+        </p>
       </section>
 
       <section className="section-body-middle">
