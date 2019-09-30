@@ -9,9 +9,9 @@ function Header(){
         <div className="title-main">Wei Cheng</div>
         {/* <span className="title-sub"> - UIUX Designer</span> */}
       </Link>
-      <NavLink to="/illustrations" className="nav-item" activeClassName="active">illustrations</NavLink>
+      <NavLink to="/illustrations" className="nav-item" activeClassName="active">illustration</NavLink>
       <NavLink to="/about" className="nav-item" activeClassName="active">about</NavLink>
-      <NavLink to="/work" className="nav-item" activeClassName="active">work</NavLink>
+      <NavLink to="/work" className="nav-item" activeClassName="active">portfolio</NavLink>
     </header>
 	
   )

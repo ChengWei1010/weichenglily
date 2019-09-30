@@ -46,16 +46,16 @@ header{
 .section-body-last{
   width: 60%;
   padding: 0 20%;
-  padding-bottom: 300px;
+  padding-bottom: 250px;
   display: inline-block;
 }
 .section-width-full{
-  padding: 1% 8%;
+  padding: 0 8%;
   width: 84%;
   display: inline-block;
   margin-left: auto;
   margin-right: auto;
-  margin: 6% 0 0 0;
+  margin: 4% 0;
 }
 footer{
   position: absolute;
@@ -71,8 +71,8 @@ section{
   margin: 0;
 }
 .works-container{
- width: 110%;
- margin-left: -5%;
+ width: 120%;
+ margin-left: -10%;
 }
 
 .section:after {
@@ -86,7 +86,7 @@ section{
 }
 article{
   width: 100%;
-  padding-bottom: 10%;
+  padding-bottom: 7%;
   display: inline-block;
 }
 
@@ -99,6 +99,10 @@ article{
 
 .stackgrid{
   display: block;
+}
+
+.recycle-color-bg{
+  background-color: rgb(241, 241, 241);
 }
 
 /* text style */
@@ -119,8 +123,8 @@ article{
   font-size: 35px;
   line-height: 45px;
   font-weight: 500;
-  color: #646464;
-  padding: 10% 0;
+  color: #313131;
+  padding: 7% 0;
   text-align: center;
 }
 /* .title-sub{
@@ -165,21 +169,23 @@ a{
   color: inherit; 
 }
 p{
-  margin-bottom: .823em;
-  margin-top: 0;
+  margin-bottom: 3%;
+  margin-top: 3%;
   white-space: pre-line;
 }
 h1, h2{
   color: #313131;
   font-family: 'Rubik', sans-serif;
+  margin: 4% 0;
   line-height: 50px;
-  font-weight: 500;
 }
 h1{
   font-size: 46px;
+  font-weight: 900;
 }
 h2{
-  font-size: 1.8em;
+  font-size: 35px;
+  font-weight: 700;
 }
 h3{
   font-size: 18px;
@@ -236,6 +242,10 @@ ol li::before {
   color: #464646;
   background-color: whitesmoke;
 }
+.align-center{
+  text-align: center;
+  padding: 1% 0;
+}
 
 /* logo */
 /*******************************************************************************/
@@ -262,8 +272,8 @@ ol li::before {
   text-decoration: none;
   text-transform: uppercase;
   padding: 1% 0 0 4.5%;
-  font-size: 16px;
-  letter-spacing: 2px;
+  font-size: 15px;
+  letter-spacing: 1px;
   float: right;
   transition: background-color 0.5s ease;
 }
@@ -302,7 +312,8 @@ ol li::before {
   width: 36%;
 }
 .col-33-percent{
-  width: 32%;
+  width: 30%;
+  padding: 0 1.5% 0% 1.5%;
 }
 .col-30-percent{
   width: 26%;
@@ -367,21 +378,27 @@ ol li::before {
 /*******************************************************************************/
 .img-wei{
   width: 100%;
-  padding-top: 30%;
 }
 .img-thumbnail{
   width: 100%;
   padding: 0;
   border-radius: 25px;
 }
+.img-thumbnails{
+  width: 100%;
+  padding: 0;
+}
 .img-work-large{
   width: 100%;
-  padding: 2% 0;
+  padding: 4% 0;
 }
 .img-work-small{
   width: 100%;
 }
-
+.img-work-smaller{
+  width: 70%;
+  padding: 0 15%;
+}
 /* project */
 /*******************************************************************************/
 /*******************************************************************************/
@@ -424,10 +441,6 @@ ol li::before {
   align-items: center;
 }
 
-.work-recycle{
-  background: rgb(159,255,230);
-  background: linear-gradient(164deg, rgba(159,255,230,1) 0%, rgba(156,255,175,1) 48%, rgba(174,255,200,1) 100%);
-}
 .work-steve{background-color: #A9DCDE;}
 .work-qeesi{background-color: rgb(223, 223, 223);}
 
@@ -436,14 +449,14 @@ ol li::before {
 /*******************************************************************************/
 @media screen and (max-width: 650px) {
   header, .section-head{
-    width: 90%;
-    padding: 5%;
+    width: 96%;
+    padding: 2%;
   }
   header {
     margin: 0;
     clear: left;
     font-size: 24px;
-    color: #a0a0a0;
+    color: #979797;
     vertical-align: middle;
   }
   section {
@@ -458,7 +471,7 @@ ol li::before {
     width: 96%;
     padding: 2%;
     display: inline-block;
-}
+  }
   .section-body-middle{
     width: 96%;
     padding: 2%;
@@ -483,10 +496,14 @@ ol li::before {
     border-bottom: 1px solid #dfdfdf;
     color: #464646;
     background-color:#e7e7e7;
-}
+  }
   .col, .col-align-right{
     width: 100%;
     float: left;
+  }
+  .col-33-percent{
+    width: 30%;
+    padding: 0 1.5% 10% 1.5%;
   }
   .project-block{
     width: 96%;
@@ -508,10 +525,14 @@ ol li::before {
     width: 60%;
     margin-top: -5%;
     padding: 0 20% 5% 20%;
-}
+  }
   .img-wei{
     padding-top: 5%;
     width: 100%;
+  }
+  .img-work-smaller{
+    width: 100%;
+    padding: 0%;
   }
   .wrapper{
     padding: 0%;
@@ -528,7 +549,7 @@ ol li::before {
   .works-container {
     width: 100%;
     margin-left: 2%;
-}
+  }
   .nav-item{
     padding: 3%;
   }

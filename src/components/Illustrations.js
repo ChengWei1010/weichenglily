@@ -20,7 +20,7 @@ class Illustrations extends Component {
         } 
       } = this.props;
     return (
-        <section className="section-body-middle">
+        <section className="section-body-middle section-body-last">
             <StackGrid
                 monitorImagesLoaded
                 columnWidth={400}
