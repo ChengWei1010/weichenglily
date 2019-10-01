@@ -5,13 +5,13 @@ function Header(){
 
   return(
     <header>
-      <Link to="/work" activeClassName="active">
+      <Link to="/portfolio" activeClassName="active">
         <div className="title-main">Wei Cheng</div>
         {/* <span className="title-sub"> - UIUX Designer</span> */}
       </Link>
       <NavLink to="/illustrations" className="nav-item" activeClassName="active">illustration</NavLink>
       <NavLink to="/about" className="nav-item" activeClassName="active">about</NavLink>
-      <NavLink to="/work" className="nav-item" activeClassName="active">portfolio</NavLink>
+      <NavLink to="/portfolio" className="nav-item" activeClassName="active">portfolio</NavLink>
     </header>
 	
   )

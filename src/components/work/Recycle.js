@@ -36,9 +36,7 @@ function Recycle(){
         className="fa-back"
       />BACK */}
 
-      <section className="section-head">
-        <h4>Design Research</h4>
-        <h1>The Recycling Truck</h1>
+      <section className="section-head"><h4>Design Research</h4><h1>The Recycling Truck</h1>
         <h3>To discover and solve problem about recycling unusual waste</h3>
         <img src={Cover} alt="img-work-large" className="img-work-large"></img>
 
@@ -57,16 +55,14 @@ function Recycle(){
           <div className="box-border-left"><h4>time</h4>January to May, 2019</div>
         </div>
       </section>
-      
       <Divider/>
 
       <section className="section-body-middle"><h2>Design Process</h2>
         <img src={Process} className="img-work-large"/>
       </section>
-
       <Divider/>
 
-      <section className="section-body-middle"><h2>Part 1 - Define Problem Space</h2>         
+      <section className="section-body-middle"><h2>Part 1 - Define Problem Space</h2>
         <article>
         <div className="col col-60-percent">
           <p>Our team started this project with a shared concern about environmental sustainability.
@@ -93,7 +89,6 @@ function Recycle(){
           <Quote h2="Problem Frame:" text="Improving the recycling facilities and people’s awareness of effects about unusual waste."></Quote>
       </article>
       </section>
-
       <Divider/>
 
       <section className="section-body-middle"><h2>Part 2 - Research and Insights</h2>
@@ -158,7 +153,6 @@ function Recycle(){
           <img src={Themes} className="img-work-large"></img>
         </div>
       </section>
-
       <section className="section-width-full">
         <p>
           <div className="col col-40-percent"><img src={Insights} className="img-work-large"></img></div>
@@ -174,7 +168,6 @@ function Recycle(){
           </div>
         </p>
       </section>
-
       <section className="section-width-full">
         <p><img src={JM1} className="img-work-large"></img></p>
         <Quote
@@ -182,15 +175,12 @@ function Recycle(){
           text="Provide an easier, educational, and joyful social experience for people in neighbors and communities who don’t have a convenient way to visit drop off centers?">
         </Quote>
       </section>
-      
       <Divider/>
       
-      <section className="section-body-middle">
-        <h2>Part 3 - Ideation</h2>
+      <section className="section-body-middle"><h2>Part 3 - Ideation</h2>
         <p>We brainstormed and came up with several creative digital and physical solutions to fix people's pain points and followed the research insights.</p>
         <img src={Ideation} className="img-work-large"></img>
       </section>
-      
       <Divider/>
 
       <section className="section-body-middle"><h2>Part 4 - Prototype Testing</h2>
@@ -219,11 +209,9 @@ function Recycle(){
       </article>
       
       </section>
-
       <Divider/>
       
-      <section className="section-body-middle">
-        <h2>Part 5 - Final Design Proposal</h2>
+      <section className="section-body-middle"><h2>Part 5 - Final Design Proposal</h2>
         <p>After all the research and the prototype testing,
           we came up with the design proposal.
           This is a concept that we can suggested to Austin Recycling Recovery Center
@@ -236,7 +224,8 @@ function Recycle(){
           <br></br><br></br>
           The goal of recycling truck is to give a process of “get-give-gain”. Letting users to have a convenient, joyful social experience to recycle their unusual waste.
         </p>
-      </section>
+      </section>      
+
       <section className="section-width-full">
         <div className="align-center">
           <div className="col col-33-percent">
@@ -259,14 +248,11 @@ function Recycle(){
             Gain <u>joyfulness and encouragement</u> by seeing other people recycling together,
             and gain <u>knowledge</u> through the interaction with other users and the staffs at the recycling truck.
           </div>
-
         </div>
       </section>
-
       <Divider/>
       
-      <section className="section-body-middle section-body-last">
-        <h2>Reflection</h2>
+      <section className="section-body-middle section-body-last"><h2>Reflection</h2>
         <p>I really enjoyed doing this project because I really understanding how to conduct a research from a design thinking and human-centered perspective.
           I learned precious experience in every step from problem finding to research, from insights generation to final design.
           In addition, I knew more about recycling and my own living environment, it's very inspiring and I'm glad that we brought environmental awareness to people around us!</p>

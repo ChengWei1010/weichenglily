@@ -19,6 +19,7 @@
     "react-scripts": "3.0.1",
     "react-sizeme": "^2.6.7",
     "react-stack-grid": "^0.7.1",
+    "react-youtube": "^7.9.0",
     "scrollprogress": "^3.0.2"
   },
   "scripts": {

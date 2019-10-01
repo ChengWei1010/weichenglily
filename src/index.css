@@ -101,7 +101,7 @@ article{
   display: block;
 }
 
-.recycle-color-bg{
+.next-color-bg{
   background-color: rgb(241, 241, 241);
 }
 
@@ -176,7 +176,7 @@ p{
 h1, h2{
   color: #313131;
   font-family: 'Rubik', sans-serif;
-  margin: 4% 0;
+  margin: 2% 0;
   line-height: 50px;
 }
 h1{
@@ -497,12 +497,11 @@ ol li::before {
     color: #464646;
     background-color:#e7e7e7;
   }
-  .col, .col-align-right{
+  .col, .col-align-right, .col-33-percent{
     width: 100%;
     float: left;
   }
   .col-33-percent{
-    width: 30%;
     padding: 0 1.5% 10% 1.5%;
   }
   .project-block{

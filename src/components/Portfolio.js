@@ -1,15 +1,16 @@
 import React from "react"
+import Emoji from "./Emoji.js"
 import ProjectBlock from "./ProjectBlock.js"
 import {Link} from "react-router-dom"
 import recycle00 from "./Work/recycle00.svg"
 import qeesi00 from "./Work/qeesi00.svg"
 import steve00 from "./Work/steve00.svg"
 
-function Work(){
+function Portfolio(){
 
   return (
     <section className="section-body-last">
-      <div className="intro">Hi, I'm Wei,<br></br>a passionate UX designer based in Austin, TX</div>
+      <div className="intro">Hi, I'm Wei,<br></br>a passionate <mark>UX designer</mark> based in Austin, TX <Emoji symbol="🤘🏽"/></div>
     <div className="works-container">
     
     <Link to="/recycle"><img src={recycle00} alt="thumbnail" className="project-block"></img></Link>
@@ -29,4 +30,4 @@ function Work(){
   </section>      
   )
 }
-export default Work
+export default Portfolio

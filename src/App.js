@@ -4,7 +4,7 @@ import Header from './components/Header.js';
 import Footer from './components/Footer.js';
 import { BrowserRouter as Router, Route, NavLink } from "react-router-dom";
 import About from "./components/About.js"
-import Work from "./components/Work.js"
+import Portfolio from "./components/Portfolio.js"
 import Illustrations from "./components/Illustrations.js"
 
 import Recycle from "./components/Work/Recycle.js"
@@ -40,8 +40,8 @@ function App(){
       <div className="wrapper">
         <Header/>
 
-        <Route exact path="/" component={Work}></Route>
-        <Route path="/work" component={Work}></Route>
+        <Route exact path="/" component={Portfolio}></Route>
+        <Route path="/portfolio" component={Portfolio}></Route>
         <Route path="/about" component={About}></Route>
         <Route path="/Illustrations" component={Illustrations}></Route>
         <Route path="/recycle" component={Recycle}></Route>
