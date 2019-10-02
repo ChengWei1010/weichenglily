@@ -1,20 +1,20 @@
 import React from "react"
-import YouTube from 'react-youtube';
 import Divider from "../../components/Divider.js"
+import SectionHead from "../../components/SectionHead.js"
 
 import Process from "./img/steve/Process.svg"
 import Style from "./img/steve/Style.svg"
 
 function Steve(){
-  
   return(
     <section className="section-work-body">
-      <section className="section-head">
-        <h4>UX Research and Design</h4>
-        <h1>Steve.ai</h1>
-        <p>An application using Artificial Intelligence to assist people who are changing their career to a S.T.E.M job.</p>
-        {/* <img src={Cover} alt="img-work-large" className="img-work-large"></img> */}
+      <SectionHead
+        category="UX Research and Design"
+        heading="Steve.ai"
+        intro="An application using Artificial Intelligence to assist people who are changing their career."
+      />
 
+      <section className="section-body-middle">
         <div className="col col-60-percent">
           <div className="box-border-left">
             <h4>overview</h4>
@@ -48,6 +48,7 @@ function Steve(){
 
       <section className="section-body-middle"><h2>Part 3 - Design</h2>
         <img src={Style} className="img-work-large"/>
+        <iframe className="figma" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FOOsPkArv70EYKaDcqbnf7Bha%2FSteve.ai%3Fnode-id%3D20%253A1555%26viewport%3D841%252C-67%252C0.2655298113822937%26scaling%3Dscale-down" allowfullscreen></iframe>
       </section>
       <Divider/>
 

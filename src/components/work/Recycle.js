@@ -1,27 +1,25 @@
 import React from "react"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { fab } from '@fortawesome/free-brands-svg-icons'
-import { faArrowLeft } from '@fortawesome/free-solid-svg-icons'
 import Quote from "../../components/Quote.js"
 import Divider from "../../components/Divider.js"
-// import ScrollProgress from "../../components/ScrollProgress.js"
+import SectionHead from "../../components/SectionHead.js"
+
 import Cover from "./img/recycleCover.png"
-import Box from "./img/recycleBox.png"
-import Process from "./img/recycleProcess.png"
-import Assumption from "./img/recycleAssumption.png"
+import Box from "./img/recycle/Box.png"
+import Process from "./img/recycle/Process.svg"
+import Assumption from "./img/recycle/Assumptions.svg"
 import Themes from "./img/recycleThemes.png"
+import ThemeCategories from "./img/recycle/ThemeCategories.svg"
 import Insights from "./img/recycleInsights.png"
 import Ideation from "./img/recycleIdeas.png"
 import Prototype1 from "./img/recyclePrototype1.png"
 import Prototype2 from "./img/recyclePrototype2.png"
 import SME from "./img/recycleSME.png"
-import Contextual1 from "./img/recycleContextual1.png"
-import Contextual2 from "./img/recycleContextual2.png"
-import Intercept1 from "./img/recycleIntercept1.png"
-import Intercept2 from "./img/recycleIntercept2.png"
-import Intercept3 from "./img/recycleIntercept3.png"
-import JM1 from "./img/recycleJM1.svg"
+import Contextual1 from "./img/recycle/Contextual1.jpg"
+import Contextual2 from "./img/recycle/Contextual2.jpg"
+import Intercept1 from "./img/recycle/Intercept1.png"
+import Intercept2 from "./img/recycle/Intercept2.png"
+import Journeymap from "./img/recycle/Journeymap.svg"
+import HMW from "./img/recycleHMW.jpg"
 import Truck from "./img/recycleTruck.png"
 import Get from "./img/recycleGet.svg"
 import Give from "./img/recycleGive.svg"
@@ -31,15 +29,13 @@ function Recycle(){
 
   return(
     <section className="section-work-body">
-      {/* <FontAwesomeIcon
-        icon={faArrowLeft}
-        className="fa-back"
-      />BACK */}
 
-      <section className="section-head"><h4>Design Research</h4><h1>The Recycling Truck</h1>
-        <h3>To discover and solve problem about recycling unusual waste</h3>
-        <img src={Cover} alt="img-work-large" className="img-work-large"></img>
-
+      <SectionHead
+        category="Design Research"
+        heading="Recycling Truck"
+        intro="using design thinking to discover and solve problem about recycling unusual waste"
+      />
+      <section className="section-body-middle">
         <div className="col col-60-percent">
           <div className="box-border-left">
             <h4>overview</h4>
@@ -51,9 +47,11 @@ function Recycle(){
         
         <div className="col col-40-percent">
           <div className="box-border-left"><h4>collaborators</h4>Yuqing Chen, Wei Cheng, Rodrigo Leal</div>
-          <div className="box-border-left"><h4>role</h4>UX research, UX design</div>
+          <div className="box-border-left"><h4>my role</h4>UX research, UX design</div>
           <div className="box-border-left"><h4>time</h4>January to May, 2019</div>
         </div>
+        <img src={Cover} alt="img-work-large" className="img-work-large"></img>
+
       </section>
       <Divider/>
 
@@ -66,42 +64,44 @@ function Recycle(){
         <article>
         <div className="col col-60-percent">
           <p>Our team started this project with a shared concern about environmental sustainability.
-            I mentioned that I have a <u>recycling box</u> including items I know can be recycled, but I didn't know how to deal with them.
             <br></br><br></br>
-            Therefore, we decide to explore further about people's experience and problems regarding recycling and trash.
+            I mentioned that I have a <u>recycling box</u> including items I know can be recycled, but I didn't know how to deal with them.            
+            <br></br><br></br>
+            We started to think, <br></br>
+            <mark>"Why is recycling unusual waste difficult to people?"</mark><br></br>
           </p>
           </div>
-          <div className="col col-40-percent">
-            <img src={Box} className="img-work-small"/>
+          <div className="col-align-right col-40-percent">
+            <img src={Box} className="img-work-large"/>
           </div>
         </article>
 
         <article>
-          <h3>Assumptions</h3>
-          <p>
-            <mark>"Why is recycling unusual waste difficult to people?"</mark><br></br>
-            We noted down some assumptions regarding this question and and keep them in mind to validate them further in our research.
-          </p>
-          <img src={Assumption} className="img-work-small"/>
+          <h3>Our Assumptions</h3>
+          <p>We then listed our assumptions regarding this question and and will validate them further during our research.</p>
+          <img src={Assumption} className="img-work-large"/>
         </article>
         
         <article>
-          <Quote h2="Problem Frame:" text="Improving the recycling facilities and people’s awareness of effects about unusual waste."></Quote>
+          <Quote
+            h2="Problem Frame:"
+            text="Improving the recycling facilities and people’s awareness of effects about unusual waste."
+            />
       </article>
       </section>
       <Divider/>
 
       <section className="section-body-middle"><h2>Part 2 - Research and Insights</h2>
         <article>
-          <h3>Subject Matter Expert Interview</h3>
+          <div className="col col-50-percent">
+            <h3>Subject Matter Expert Interview</h3>
+            We planned a site visit to the Austin Recycling Recovery Center
+            and set up interviews with subject matter experts to learn about <u>the operation of recycling facilities</u>,
+            and the <u>education and marketing aspects</u> of recycling in Austin.
+          </div>
           <div className="col col-50-percent">
             <img src={SME} className="img-work-large"></img>
           </div>
-          To learn more about the <u>recycling facilities</u>, how do they operate, and their challenges,
-          we planned a site visit to the Austin Recycling Recovery Center and set up an interview with Andy Dawson, the Assistant Division Manager.
-          <br></br><br></br>
-          We also made a phone call interview with Susan Harm,
-          the Senior Public Information Specialist to learn more about the <u>education and marketing</u> aspects of recycling in Austin.
         </article>
 
         <article>
@@ -116,69 +116,66 @@ function Recycle(){
           <div className="col col-50-percent">
             <img src={Contextual2} className="img-work-large"></img>
             <h4>activity 2 - Recycling Box</h4>
-            <p>Gathering thoughts about how to deal with unusual waste through the discussion about items in the box we provided.</p>
+            <p>Gathering thoughts about how to deal with unusual waste through <u>discussion about items</u> in the box we provided.</p>
           </div>
         </article>
 
         <article>
           <h3>Intercept Interview</h3>
-          <div className="col-close col-33-percent">
+          <div className="col col-50-percent">
             <img src={Intercept1} className="img-work-large"></img>
           </div>
-          <div className="col-close col-33-percent">
+          <div className="col col-50-percent">
             <img src={Intercept2} className="img-work-large"></img>
           </div>
-          <div className="col-close col-33-percent">
-            <img src={Intercept3} className="img-work-large"></img>
-          </div>
-          During our site visit to Austin Recycling center, we did 10 intercept interviews with random people coming to the center.
-          We asked questions regarding their <u>reason</u> for recycling, their <u>transportation</u> to the drop off center, and their <u>views</u> about recycling in general.
+          <p>During our site visit to Austin Recycling center, we did 10 intercept interviews with random people coming to the center.
+          We asked questions regarding their <u>reason</u> for recycling, their <u>transportation</u> to the drop off center,
+          and their <u>views</u> about recycling in general.</p>
         </article>
       </section>
-      
-      <section className="section-width-full"><h2>Research Findings</h2>
-      <p>After the research, we wrote the quotes from all interviewees on sticky notes and categorized them by similar themes:</p>
 
-        <div className="col col-40-percent">
-          <p>
-            <ul>
-              <li><u>Concerns</u> (confusions, time, traveling):<br></br>These are the problems or blockers that prevent people from doing recycle or caring about the unusual waste.</li>
-              <li><u>Habits</u> (recycling habits, reuse, motivation):<br></br>These describe the habits that people have or the reason why they do recycle.</li>
-              <li><u>Impact</u> (social, individual, education):<br></br>These record why people change their habits in either positive or negative ways.</li>
-              <li><u>Facilities Improvements</u>:<br></br>Some suggestions or feedbacks about how to improve the recycling facilities.</li>
-            </ul>
-          </p>
+      <section className="section-width-full">
+        <h3>Journey Map</h3>
+        <img src={Journeymap} className="img-work-large"></img>
+      </section>
+      
+      <section className="section-width-full">
+        <div className="col col-30-percent align-vertical-center">
+          <h2>Research Findings</h2>
+          <p>After the research, we wrote the quotes from all interviewees on sticky notes and grouped them into similar themes:</p>
+          <img src={ThemeCategories} className="img-work-large"></img>
         </div>
-        <div className="col col-60-percent">
+        <div className="col col-70-percent col-align-right">
           <img src={Themes} className="img-work-large"></img>
         </div>
       </section>
+
       <section className="section-width-full">
-        <p>
-          <div className="col col-40-percent"><img src={Insights} className="img-work-large"></img></div>
-          <div className="col-align-right col-60-percent">
-            <h2>Insights</h2>
-            Based on the interviews and themes, we listed the insights and formed our journey and how might we statement.
-            <ol>
-            <li>Going to drop off center require transportation and time, so people don't want to commit their efforts.</li>
-            <li>When people are confused about recycling, they tend to ignore their problems and don't ask for help.</li>
-            <li>Existing damage of the environment can motivate people to form better recycling habits or education themselves.</li>
-            <li>People tend to change their recycling habits to match people around them.</li>
-            </ol>
-          </div>
-        </p>
+        <div className="col col-40-percent"><img src={Insights} className="img-work-large"></img></div>
+        <div className="col-60-percent col-align-right">
+          <h2>Insights</h2>         
+          <ol>
+          <li>Going to drop off center require transportation and time, so people don't want to commit their efforts.</li>
+          <li>When people are confused about recycling, they tend to ignore their problems and don't ask for help.</li>
+          <li>Existing damage of the environment can motivate people to form better recycling habits or education themselves.</li>
+          <li>People tend to change their recycling habits to match people around them.</li>
+          </ol>
+        </div>
       </section>
+
       <section className="section-width-full">
-        <p><img src={JM1} className="img-work-large"></img></p>
-        <Quote
-          h2="How might we..."
-          text="Provide an easier, educational, and joyful social experience for people in neighbors and communities who don’t have a convenient way to visit drop off centers?">
-        </Quote>
+        <div className="col col-40-percent align-vertical-center"><h2>How Might We...</h2>
+        "Provide an <u>easier, educational, and joyful social experience</u> for people in neighbors and communities who don’t have a convenient way to visit drop off centers?"</div>
+        <div className="col-align-right col-60-percent "><img src={HMW} className="img-work-large"/></div>
       </section>
+
       <Divider/>
       
       <section className="section-body-middle"><h2>Part 3 - Ideation</h2>
-        <p>We brainstormed and came up with several creative digital and physical solutions to fix people's pain points and followed the research insights.</p>
+        <p>
+          We brainstormed and came up with several digital and physical solutions to 
+          fix people's pain points based on the opportunities from journey map and research insights.
+        </p>
         <img src={Ideation} className="img-work-large"></img>
       </section>
       <Divider/>
@@ -196,14 +193,16 @@ function Recycle(){
         </div>
       </article>
       <article>
-        <p>In version 1, we sent <u>flyers and email announcements</u> 2 days ahead to promote our recycling truck.
-            We ended up having <b>5 participants</b> bringing their unusual recycling items.
-            Also, there were <b>5 observers</b> stopped by and willing to learn more about what we're doing.<br></br>
+        <p>In version 1, we sent flyers and email announcements 2 days ahead to promote our recycling truck, end up having 5 participants and 5 observers
+          In the version 2, we tested another location and improve our advertising methods, having less participants than the first time.<br></br>
+            
             We learned that...
           <ul>
-            <li>We should estimate the number of participants to prepare for out vehicle capacity.</li>
+            <li>We should estimate the number of participants as well as vehicle capacity.</li>
             <li>We found that outdoor location encourages more passersby to stop by.</li>
             <li>We can provide recycling education information when interacting with participants.</li>
+            <li>Type of residents and neighborhood affected the categories of the waste.</li>
+            <li>We should send even earlier and multiple channels of marketing methods in neighborhoods.</li>
           </ul>
         </p>
       </article>

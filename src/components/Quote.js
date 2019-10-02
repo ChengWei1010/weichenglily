@@ -1,5 +1,4 @@
 import React from "react"
-import { whileStatement } from "@babel/types";
 
 function Quote(props){
   const bgcolor = {
