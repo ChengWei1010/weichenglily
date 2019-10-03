@@ -270,10 +270,10 @@ ol li::before {
   margin: 4% 0;
 }
 .dot{
-  height: 6px;
-  width: 6px;
+  height: 4px;
+  width: 4px;
   margin-right: 20px;
-  background-color: #111;
+  background-color: rgb(126, 126, 126);
   border-radius: 50%;
   display: inline-block;
 }

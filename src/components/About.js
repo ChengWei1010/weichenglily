@@ -32,7 +32,8 @@ function About(){
         
         Thank you for visiting my portfolio :)<br></br>
         </p>
-        <a target="_blank" href="https://drive.google.com/file/d/1fqzDpGra-_NwU80lvILuDHrepqdy2j2-/view?usp=sharing">
+        <a target="_blank" href="https://drive.google.com/open?id=14q--1Jai04kww3p0JD_hrt8MoGQ85b0N">
+          
           <span className="highlight">View Wei's resume</span>
         </a>
       </div>

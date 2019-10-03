@@ -46,11 +46,13 @@ function Steve(){
       </section>
       <Divider/>
 
-      <section className="section-body-middle"><h2>Part 3 - Design</h2>
+      <section className="section-body-middle"><h2>Part 3 - Design</h2>       
         <img src={Style} className="img-work-large"/>
         <iframe className="figma" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FOOsPkArv70EYKaDcqbnf7Bha%2FSteve.ai%3Fnode-id%3D20%253A1555%26viewport%3D841%252C-67%252C0.2655298113822937%26scaling%3Dscale-down" allowfullscreen></iframe>
       </section>
       <Divider/>
+
+      
 
       <section className="section-body-middle section-body-last">
         <h2>Relfection</h2>
