@@ -6,7 +6,7 @@ function About(){
   return(
     <section className="section-work-body">
       <section className="section-body-last">
-      <div className="intro">
+      <div className="intro-home-about">
         Hello again!<br></br>You can pronounce “Wei” like “way”</div>
       <div className="col col-60-percent">
         <p>
@@ -33,7 +33,6 @@ function About(){
         Thank you for visiting my portfolio :)<br></br>
         </p>
         <a target="_blank" href="https://drive.google.com/open?id=14q--1Jai04kww3p0JD_hrt8MoGQ85b0N">
-          
           <span className="highlight">View Wei's resume</span>
         </a>
       </div>

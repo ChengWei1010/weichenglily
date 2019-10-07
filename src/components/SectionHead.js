@@ -1,12 +1,14 @@
 import React from "react"
 
 function SectionHead(props){
-
+  const bgcolor = {
+    background: props.bgcolor,
+  };
   return(
-    <section className="section-head">
+    <section className="section-head" style={bgcolor}>
         <h4>{props.category}</h4>
         <h1>{props.heading}</h1>
-        <div className="intro">{props.intro}</div>
+        <div className="intro-portfolio">{props.intro}</div>
     </section>
   )
 }

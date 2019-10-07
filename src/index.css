@@ -23,8 +23,8 @@ header, .section-head{
   display: inline-block;
 }
 .section-head{
-  padding: 5% 20% 0 20%;
-  margin: 0;
+  padding: 5% 20% 4% 20%;
+  margin: 0 0 3% 0;
   text-align: center;
 }
 .wrapper{ 
@@ -51,12 +51,12 @@ header{
   display: inline-block;
 }
 .section-width-full{
-  padding: 0 8%;
-  width: 84%;
+  padding: 0 9%;
+  width: 82%;
   display: inline-block;
   margin-left: auto;
   margin-right: auto;
-  margin: 4% 0;
+  margin: 6% 0;
 }
 footer{
   position: absolute;
@@ -87,7 +87,7 @@ section{
 }
 article{
   width: 100%;
-  padding-bottom: 7%;
+  padding-bottom: 5%;
   display: inline-block;
 }
 
@@ -119,23 +119,19 @@ article{
   font-size: 30px;
   display: table-cell;
 }
-.homepage-intro{
+.intro-home-about, .intro-portfolio{
   font-family: 'Rubik', sans-serif;
   font-size: 30px;
   line-height: 45px;
   font-weight: 400;
   color: #424242;
   text-align: center;
-  padding: 20% 0 20% 0;
 }
-.intro{
-  font-family: 'Rubik', sans-serif;
-  font-size: 30px;
-  line-height: 45px;
-  font-weight: 400;
-  color: #424242;
-  padding: 5% 0 7% 0;
-  text-align: center;
+.intro-home-about{
+  padding: 15% 0;
+}
+.intro-portfolio{
+  padding: 0% 0 7% 0;
 }
 /* .title-sub{
   font-weight: 100;
@@ -190,7 +186,7 @@ h1, h2{
   line-height: 50px;
 }
 h1{
-  font-size: 46px;
+  font-size: 40px;
   font-weight: 900;
 }
 h2{
@@ -200,7 +196,7 @@ h2{
 h3{
   font-size: 18px;
   font-weight: 900;
-  letter-spacing:2px;
+  letter-spacing:1px;
   text-transform: uppercase;
   color: rgb(0, 0, 0);
   margin: 2% 0;
@@ -242,15 +238,17 @@ ol li::before {
   font-style: italic;
 }
 .quote{
-  padding: 2% 4% 4% 4%;
+  padding: 1% 4% 4% 4%;
   margin: 4% 0;
-  text-align: center;
+  text-align: left;
   font-weight: 200;
-  font-size: 20px;
+  font-size: 24px;
+  line-height: 38px;
   border-top: 1px solid #dfdfdf;
   border-bottom: 1px solid #dfdfdf;
   color: #464646;
   background-color: whitesmoke;
+  font-family: 'Rubik', sans-serif;
 }
 .align-center{
   text-align: center;
@@ -300,7 +298,7 @@ ol li::before {
 /*******************************************************************************/
 .col{
   float: left;
-  padding-right: 3%;
+  padding-right: 2%;
 }
 .col-close{
   float: left;
@@ -323,20 +321,24 @@ ol li::before {
   width: 56%;
 }
 .col-40-percent{
-  width: 38%;
+  width: 36%;
 }
 .col-33-percent{
   width: 30%;
   padding: 0 1.5% 0% 1.5%;
 }
 .col-30-percent{
-  width: 26%;
+  width: 27%;
+}
+.col-25-percent{
+  width: 22%;
 }
 .col-20-percent{
-  width: 16%;
+  width: 17%;
 }
 .row{
   float: left;
+  padding: 2% 0;
 }
 .box-border-left{
   float: left;
@@ -350,27 +352,22 @@ ol li::before {
 /*******************************************************************************/
 /*******************************************************************************/
 .scroll {
-  opacity: 0.2;
-  background-color: var(--main-color);
+  /* background-color: white; */
   width: 40px;
   height: 40px;
   position: fixed;
   bottom: 10px;
   right: 10px;
   border-radius: 5px;
-  border: none;
   cursor: pointer;
 }  
 .scroll:hover {
     opacity: 1;
 }
 .fa-top{
-  color: white;
+  color: var(--main-color);
   position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-top: -9.5px;
-  margin-left: -7.5px;
+  font-size: 30px;
 }
 .fa{
   padding: 16px;
@@ -419,13 +416,13 @@ ol li::before {
   width: 100%;
   padding: 2% 0;
 }
-.img-work-small{
-  width: 40%;
-  padding: 4% 0;
-}
 .img-work-smaller{
   width: 70%;
-  padding: 0 15%;
+  padding: 0% 15%;
+}
+.img-work-icon{
+  width: 62px;
+  padding: 9px 0;
 }
 /* project */
 /*******************************************************************************/
@@ -472,10 +469,32 @@ ol li::before {
   border: none;
   width: 100%;
   height: 800px;
+  margin: 5% 0;
+}
+.youtube{
+  width: 100%;
+  padding: 0;
+  height: 500px;
+  margin: 2% 0;
 }
 .work-steve{background-color: #A9DCDE;}
 .work-qeesi{background-color: rgb(223, 223, 223);}
 
+/* button and links */
+/*******************************************************************************/
+/*******************************************************************************/
+.button{
+  background-color: var(--main-color);
+  color: white;
+  padding: 1% 2%;
+  margin: 1% 0;
+  display: inline-block;
+  border-radius: 10px;
+}
+.button:hover{
+  box-shadow: 0px 0px 15px -9px rgba(0,0,0,0.88);
+  background-color: #f18900;
+}
 /*mobile*/
 /*******************************************************************************/
 /*******************************************************************************/

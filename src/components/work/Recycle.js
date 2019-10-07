@@ -3,29 +3,30 @@ import Quote from "../../components/Quote.js"
 import Divider from "../../components/Divider.js"
 import SectionHead from "../../components/SectionHead.js"
 
-import Cover from "./img/recycleCover.png"
+import Cover from "./img/recycle/Cover.png"
 import Box from "./img/recycle/Box.png"
 import Process from "./img/recycle/Process.svg"
 import Assumption from "./img/recycle/Assumptions.svg"
-import Themes from "./img/recycleThemes.png"
+import Themes from "./img/recycle/Themes.png"
 import ThemeCategories from "./img/recycle/ThemeCategories.svg"
-import Insights from "./img/recycleInsights.png"
-import Ideation from "./img/recycleIdeas.png"
-import Prototype1 from "./img/recyclePrototype1.png"
-import Prototype2 from "./img/recyclePrototype2.png"
-import SME from "./img/recycleSME.png"
+import Insights from "./img/recycle/Insights.png"
+import Ideation from "./img/recycle/Ideas.png"
+import Prototype1 from "./img/recycle/Prototype1.png"
+import Prototype2 from "./img/recycle/Prototype2.png"
+import SME from "./img/recycle/SME.png"
 import Contextual1 from "./img/recycle/Contextual1.jpg"
 import Contextual2 from "./img/recycle/Contextual2.jpg"
 import Intercept1 from "./img/recycle/Intercept1.png"
 import Intercept2 from "./img/recycle/Intercept2.png"
 import Journeymap from "./img/recycle/Journeymap.svg"
-import HMW from "./img/recycleHMW.jpg"
-import Truck from "./img/recycleTruck.png"
-import Get from "./img/recycleGet.svg"
-import Give from "./img/recycleGive.svg"
-import Gain from "./img/recycleGain.svg"
+import HMW from "./img/recycle/HMW.jpg"
+import Truck from "./img/recycle/Truck.png"
+import Get from "./img/recycle/IconGet.svg"
+import Give from "./img/recycle/IconGive.svg"
+import Gain from "./img/recycle/IconGain.svg"
 
 function Recycle(){
+const bgcolor="#E3F4D8"
 
   return(
     <section className="section-work-body">
@@ -33,7 +34,8 @@ function Recycle(){
       <SectionHead
         category="Design Research"
         heading="Recycling Truck"
-        intro="using design thinking to discover and solve problem about recycling unusual waste"
+        intro="Discover and solve problem about recycling unusual waste"
+        bgcolor={bgcolor}
       />
       <section className="section-body-middle">
         <div className="col col-60-percent">
@@ -64,11 +66,9 @@ function Recycle(){
         <article>
         <div className="col col-60-percent">
           <p>Our team started this project with a shared concern about environmental sustainability.
-            <br></br><br></br>
             I mentioned that I have a <u>recycling box</u> including items I know can be recycled, but I didn't know how to deal with them.            
             <br></br><br></br>
-            We started to think, <br></br>
-            <mark>"Why is recycling unusual waste difficult to people?"</mark><br></br>
+            We then started to think, <mark>"Why is recycling unusual waste difficult to people?"</mark><br></br>
           </p>
           </div>
           <div className="col-align-right col-40-percent">
@@ -81,13 +81,13 @@ function Recycle(){
           <p>We then listed our assumptions regarding this question and and will validate them further during our research.</p>
           <img src={Assumption} className="img-work-large"/>
         </article>
-        
         <article>
           <Quote
             h2="Problem Frame:"
-            text="Improving the recycling facilities and people’s awareness of effects about unusual waste."
+            text1="Improving the recycling facilities and people’s awareness of effects about unusual waste."
+            bgcolor={bgcolor}
             />
-      </article>
+        </article>
       </section>
       <Divider/>
 

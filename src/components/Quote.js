@@ -9,7 +9,10 @@ function Quote(props){
     <div>
         <div className="quote" style={bgcolor}>
         <h2>{props.h2}</h2>
-            {props.text}
+        <h4>{props.h4}</h4>
+            {props.text1}
+            <br></br>
+            {props.text2}
         </div>
     </div>
   )

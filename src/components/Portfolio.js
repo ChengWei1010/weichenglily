@@ -10,16 +10,16 @@ class Portfolio extends React.Component {
   render () {
   return (
     <section className="section-body-last">
-      <div className="homepage-intro">
-        Hi, I'm Wei, an <mark className="mark-color">UX designer</mark> based in Austin, TX <Emoji symbol="🤘🏽"/><br></br>
+      <div className="intro-home-about">
+        Hi, I'm Wei,<br></br>an <mark className="mark-color">UX designer</mark> based in Austin, TX <Emoji symbol="🤘🏽"/><br></br>
         I am an experience explorer at the intersection of
         <br></br>technology, business, and people.
       </div>
     <div className="works-container">
     
     <Link to="/recycle"><img src={recycle00} alt="thumbnail" className="project-block"></img></Link>
-    <a target="_blank" href="https://drive.google.com/file/d/1Id-Vw4HyPX87aj-0kCcqqAyWDaPA3zkJ/view"><img src={qeesi00} alt="thumbnail" className="project-block"></img></a>
     <Link to="/Steve"><img src={steve00} alt="thumbnail" className="project-block"></img></Link>
+    <a target="_blank" href="https://drive.google.com/file/d/1Id-Vw4HyPX87aj-0kCcqqAyWDaPA3zkJ/view"><img src={qeesi00} alt="thumbnail" className="project-block"></img></a>
     <Link to="/Visualbi"><img src={visualbi00} alt="thumbnail" className="project-block"></img></Link>
     {/* <a target="_blank" href="https://drive.google.com/file/d/1Id-Vw4HyPX87aj-0kCcqqAyWDaPA3zkJ/view">
       <div className="project-block work-qeesi">

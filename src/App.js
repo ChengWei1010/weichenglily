@@ -2,6 +2,8 @@ import './App.css';
 import React from 'react';
 import Header from './components/Header.js';
 import Footer from './components/Footer.js';
+import ScrollUpButton from "react-scroll-up";
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
@@ -55,40 +57,17 @@ function App(){
         <Route path="/visualbi" component={Visualbi}></Route>
 
         <Footer />
-        <ScrollButton scrollStepInPx="50" delayInMs="16.66"/>
+
+        <ScrollUpButton showUnder={160}>
+          <span className="scroll">
+            <FontAwesomeIcon
+              icon={faChevronUp}
+              className="fa-top"/>
+          </span>
+        </ScrollUpButton>
+
       </div>
   )
 }
 
 export default App;
-
-class ScrollButton extends React.Component {
-  constructor() {
-    super();
-    this.state = {
-        intervalId: 0,
-    };
-  }
-  
-  scrollStep() {
-    if (window.pageYOffset === 0) {
-        clearInterval(this.state.intervalId);
-    }
-    window.scroll(0, window.pageYOffset - this.props.scrollStepInPx);
-  }
-  
-  scrollToTop() {
-    let intervalId = setInterval(this.scrollStep.bind(this), this.props.delayInMs);
-    this.setState({ intervalId: intervalId });
-  }
-  
-  render () {
-      return <div title='Back to top' className='scroll' 
-               onClick={ () => { this.scrollToTop(); }}>
-                <FontAwesomeIcon
-                icon={faChevronUp}
-                className="fa-top"/>
-                <span className='arrow-up glyphicon glyphicon-chevron-up'></span>
-              </div>;
-   }
-} 
