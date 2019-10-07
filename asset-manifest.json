@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.2098263e.chunk.css",
-    "main.js": "/static/js/main.99000f38.chunk.js",
-    "main.js.map": "/static/js/main.99000f38.chunk.js.map",
+    "main.js": "/static/js/main.ce08594c.chunk.js",
+    "main.js.map": "/static/js/main.ce08594c.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
     "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/js/2.dc28a334.chunk.js": "/static/js/2.dc28a334.chunk.js",
-    "static/js/2.dc28a334.chunk.js.map": "/static/js/2.dc28a334.chunk.js.map",
+    "static/js/2.19e7ae4d.chunk.js": "/static/js/2.19e7ae4d.chunk.js",
+    "static/js/2.19e7ae4d.chunk.js.map": "/static/js/2.19e7ae4d.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.11e80b6035973bd4d486e32670f29278.js": "/precache-manifest.11e80b6035973bd4d486e32670f29278.js",
+    "precache-manifest.a0ce4e36be7da46e29a5238a51beab4b.js": "/precache-manifest.a0ce4e36be7da46e29a5238a51beab4b.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.2098263e.chunk.css.map": "/static/css/main.2098263e.chunk.css.map",
     "static/media/Assumptions.svg": "/static/media/Assumptions.5b47c5fd.svg",
@@ -36,6 +36,8 @@
     "static/media/Process.svg": "/static/media/Process.ce2dfdea.svg",
     "static/media/Prototype1.png": "/static/media/Prototype1.d1bc60a0.png",
     "static/media/Prototype2.png": "/static/media/Prototype2.dc0148cd.png",
+    "static/media/Research1.jpg": "/static/media/Research1.e7954872.jpg",
+    "static/media/Research2.jpg": "/static/media/Research2.333728bc.jpg",
     "static/media/SME.png": "/static/media/SME.7a766c50.png",
     "static/media/Storyboard.png": "/static/media/Storyboard.c541a68e.png",
     "static/media/Style.svg": "/static/media/Style.af552649.svg",
@@ -52,7 +54,7 @@
     "static/media/sunflower.gif": "/static/media/sunflower.56d2f210.gif",
     "static/media/sunrise.jpg": "/static/media/sunrise.2bec8403.jpg",
     "static/media/sunset.jpg": "/static/media/sunset.bd65d6a1.jpg",
-    "static/media/visualbi00.svg": "/static/media/visualbi00.cbdd60bb.svg",
+    "static/media/visualbi00.svg": "/static/media/visualbi00.af3145b2.svg",
     "static/media/wei.jpg": "/static/media/wei.c4156efc.jpg"
   }
 }
