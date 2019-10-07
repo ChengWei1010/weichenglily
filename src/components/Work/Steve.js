@@ -150,7 +150,7 @@ const bg = {
         <iframe className="figma" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FOOsPkArv70EYKaDcqbnf7Bha%2FSteve.ai%3Fnode-id%3D20%253A1555%26viewport%3D841%252C-67%252C0.2655298113822937%26scaling%3Dscale-down" allowfullscreen></iframe>
         <iframe className="youtube" src="https://www.youtube.com/embed/v3TrLTPbZUU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </section>
-      <Divider/>
+      
 
       {/* <section className="section-body-middle section-body-last">
         <h2>Relfection</h2>
