@@ -7,10 +7,10 @@ function Visualbi(){
     <SectionHead
         category="UI/UX Design Internship"
         heading="Visualbi Internship"
-        intro="UI/UX research and design for business intelligence and data visualization product."
+        intro="UX research and design for business intelligence and data visualization product."
       />
         
-    <section className="section-body-middle">
+    <section className="section-body-last">
         <div className="col col-60-percent">
             <div className="box-border-left">
                 <h4>overview</h4>
@@ -25,10 +25,10 @@ function Visualbi(){
         </div>
       </section>
 
-      <section className="section-body-last">
+      {/* <section className="section-body-last">
         <h2>Relfection</h2>
-        <p>Coming soon!</p>
-      </section>
+        <p>Due to non disclosure</p>
+      </section> */}
     </section>
     
   )

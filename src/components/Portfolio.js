@@ -1,10 +1,10 @@
 import React from "react"
 import Emoji from "./Emoji.js"
 import {Link} from "react-router-dom"
-import recycle00 from "./Work/recycle00.svg"
-import qeesi00 from "./Work/qeesi00.svg"
-import steve00 from "./Work/steve00.svg"
-import visualbi00 from "./Work/visualbi00.svg"
+import recycle00 from "./Work/img/recycle00.svg"
+import qeesi00 from "./Work/img/qeesi00.svg"
+import steve00 from "./Work/img/steve00.svg"
+import visualbi00 from "./Work/img/visualbi00.svg"
 
 class Portfolio extends React.Component {
   render () {
