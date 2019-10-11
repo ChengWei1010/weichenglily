@@ -7,7 +7,7 @@ function About(){
     <section className="section-work-body">
       <section className="section-body-last">
       <div className="intro-home-about">
-        Hello again!<br></br>You can pronounce “Wei” like “way”</div>
+        Hello again!<br></br>You can pronounce <mark className="mark-color">Wei</mark> like <mark className="mark-color">way</mark>.</div>
       <div className="col col-60-percent">
         <p>
         
@@ -17,10 +17,10 @@ function About(){
                 
         I was born and raised in Taiwan.<br></br>
         
-        <br></br>
+        {/* <br></br>
         
         I'm currently an <b>UI/UX Design Intern</b> at Visual BI Solutions,
-        I enjoy designing for business intelligence tools and Microsoft Power BI Visualizations.<br></br>
+        I enjoy designing for business intelligence tools and Microsoft Power BI Visualizations.<br></br> */}
 
         <br></br>
         

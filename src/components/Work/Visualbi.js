@@ -3,6 +3,7 @@ import SectionHead from "../../components/SectionHead.js"
 import Divider from "../../components/Divider.js"
 import Research1 from "./img/visualbi/Research1.jpg"
 import Research2 from "./img/visualbi/Research2.jpg"
+import ValQ from "./img/visualbi/ValQ.png"
 
 function Visualbi(){
   const bgcolor="#99D6EF"
@@ -34,14 +35,16 @@ function Visualbi(){
         </div>
       </section>
 
+      <Divider></Divider>
 
       <section className="section-body-last">
         <article>
           <h2>Design for valQ with product team</h2>
           <p>
-          I design for valQ, a data visualization tool on Microsoft Power BI.
+          I design for <a target="_blank" href="https://valq.com/"><span className="highlight">valQ</span></a>, a data visualization tool on Microsoft Power BI.
           It was previously the value driver tree visualization on SAP Lumira Designer.
           It recently migrated to Microsoft Power BI platform to meet more users’ needs.
+          <img src={ValQ} className="img-work-large"/>
           </p>
         </article>
 

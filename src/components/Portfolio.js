@@ -1,10 +1,10 @@
 import React from "react"
 import Emoji from "./Emoji.js"
 import {Link} from "react-router-dom"
-import recycle00 from "./Work/img/recycle00.svg"
-import qeesi00 from "./Work/img/qeesi00.svg"
-import steve00 from "./Work/img/steve00.svg"
-import visualbi00 from "./Work/img/visualbi00.svg"
+import RecycleProject from "./Work/img/RecycleProject.svg"
+import QeesiProject from "./Work/img/QeesiProject.svg"
+import SteveProject from "./Work/img/SteveProject.svg"
+import VisualbiProject from "./Work/img/VisualbiProject.svg"
 
 class Portfolio extends React.Component {
   render () {
@@ -17,10 +17,10 @@ class Portfolio extends React.Component {
       </div>
     <div className="works-container">
     
-    <Link to="/recycle"><img src={recycle00} alt="thumbnail" className="project-block"></img></Link>
-    <Link to="/Steve"><img src={steve00} alt="thumbnail" className="project-block"></img></Link>
-    <a target="_blank" href="https://drive.google.com/file/d/1Id-Vw4HyPX87aj-0kCcqqAyWDaPA3zkJ/view"><img src={qeesi00} alt="thumbnail" className="project-block"></img></a>
-    <Link to="/Visualbi"><img src={visualbi00} alt="thumbnail" className="project-block"></img></Link>
+    <Link to="/recycle"><img src={RecycleProject} alt="thumbnail" className="project-block"></img></Link>
+    <Link to="/Steve"><img src={SteveProject} alt="thumbnail" className="project-block"></img></Link>
+    <a target="_blank" href="https://drive.google.com/open?id=14q--1Jai04kww3p0JD_hrt8MoGQ85b0N"><img src={QeesiProject} alt="thumbnail" className="project-block"></img></a>
+    <Link to="/Visualbi"><img src={VisualbiProject} alt="thumbnail" className="project-block"></img></Link>
     {/* <a target="_blank" href="https://drive.google.com/file/d/1Id-Vw4HyPX87aj-0kCcqqAyWDaPA3zkJ/view">
       <div className="project-block work-qeesi">
         <ProjectBlock
@@ -31,7 +31,7 @@ class Portfolio extends React.Component {
       </div>
     </a> */}
     </div>
-  </section>      
+  </section>  
   )
   }
 }

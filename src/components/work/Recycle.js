@@ -1,7 +1,8 @@
 import React from "react"
+import SectionHead from "../../components/SectionHead.js"
 import Quote from "../../components/Quote.js"
 import Divider from "../../components/Divider.js"
-import SectionHead from "../../components/SectionHead.js"
+import BackHome from "../../components/BackHome.js"
 
 import Cover from "./img/recycle/Cover.png"
 import Box from "./img/recycle/Box.png"
@@ -53,7 +54,8 @@ const bgcolor="#E3F4D8"
           <div className="box-border-left"><h4>time</h4>January to May, 2019</div>
         </div>
         <img src={Cover} alt="img-work-large" className="img-work-large"></img>
-
+        <a target="_blank" href="https://drive.google.com/file/d/1aQFLD8wNyahneuSo5aGKkvArDf-OClLy/view?usp=sharing">
+        <div className="button">View Presentation</div></a>
       </section>
       <Divider/>
 
@@ -251,11 +253,12 @@ const bgcolor="#E3F4D8"
       </section>
       <Divider/>
       
-      <section className="section-body-middle section-body-last"><h2>Reflection</h2>
+      <section className="section-body-middle"><h2>Reflection</h2>
         <p>I really enjoyed doing this project because I really understanding how to conduct a research from a design thinking and human-centered perspective.
           I learned precious experience in every step from problem finding to research, from insights generation to final design.
           In addition, I knew more about recycling and my own living environment, it's very inspiring and I'm glad that we brought environmental awareness to people around us!</p>
       </section>
+      <BackHome></BackHome>
 
       {/* <ScrollProgress className="progress-bar"/> */}
   

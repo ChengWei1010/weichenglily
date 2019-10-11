@@ -46,7 +46,7 @@ header{
 }
 .section-body-last{
   width: 60%;
-  padding: 0 20%;
+  padding: 5% 20%;
   padding-bottom: 250px;
   display: inline-block;
 }
@@ -128,7 +128,7 @@ article{
   text-align: center;
 }
 .intro-home-about{
-  padding: 15% 0;
+  padding: 8% 0 13% 0;
 }
 .intro-portfolio{
   padding: 0% 0 7% 0;
@@ -173,6 +173,9 @@ mark{
 a{
   text-decoration: none;
   color: inherit; 
+}
+a:hover{
+  color: var(--main-color); 
 }
 p{
   margin-bottom: 3%;
@@ -336,6 +339,15 @@ ol li::before {
 .col-20-percent{
   width: 17%;
 }
+.card{
+  width: 42%;
+  padding: 4%;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 17px 0 rgba(233, 233, 233, 0.8);
+}
 .row{
   float: left;
   padding: 2% 0;
@@ -365,6 +377,10 @@ ol li::before {
     opacity: 1;
 }
 .fa-top{
+  position: absolute;
+  font-size: 30px;
+}
+.fa-top:hover{
   color: var(--main-color);
   position: absolute;
   font-size: 30px;
@@ -551,6 +567,11 @@ ol li::before {
   .col, .col-align-right, .col-33-percent{
     width: 100%;
     float: left;
+  }
+  .card{
+    width: 90%;
+    padding: 4%;
+    margin-bottom: 6%;
   }
   .col-33-percent{
     padding: 0 1.5% 10% 1.5%;

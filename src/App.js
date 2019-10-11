@@ -5,8 +5,6 @@ import Footer from './components/Footer.js';
 import ScrollUpButton from "react-scroll-up";
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { fab } from '@fortawesome/free-brands-svg-icons'
 import { faChevronUp } from '@fortawesome/free-solid-svg-icons'
 import { BrowserRouter as Router, Route, NavLink } from "react-router-dom";
 import About from "./components/About.js"
@@ -17,30 +15,6 @@ import Recycle from "./components/Work/Recycle.js"
 import Qeesi from "./components/Work/Qeesi.js"
 import Steve from "./components/Work/Steve.js"
 import Visualbi from "./components/Work/Visualbi.js"
-
-// function App() {
-//   return (
-//     <div className="App">
-//       <header className="App-header">
-//         <img src={logo} className="App-logo" alt="logo" />
-//         <p>
-//           Edit <code>src/App.js</code> and save to reload.
-//         </p>
-//         <a
-//           className="App-link"
-//           href="https://reactjs.org"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//         >
-//           Learn React
-//         </a>
-//       </header>
-//       <Footer />
-//     </div>
-//   );
-
-// }
-
 
 function App(){
   return(

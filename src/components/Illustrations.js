@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import StackGrid, { transitions, easings } from "react-stack-grid";
 import sizeMe from 'react-sizeme';
 // import images from "./images.js";
-
 // const transition = transitions.scaleDown;
 
 class Illustrations extends Component {
@@ -21,9 +20,13 @@ class Illustrations extends Component {
       } = this.props;
     return (
         <section className="section-body-middle section-body-last">
+          <div className="intro-home-about">
+            I like to do caligraphy, oil painting, poster design.
+          </div>
+
             <StackGrid
                 monitorImagesLoaded
-                columnWidth={400}
+                columnWidth={150}
                 columnWidth={width <= 768 ? '100%' : '33.33%'}
                 duration={600}
                 gutterWidth={15}
@@ -45,6 +48,7 @@ class Illustrations extends Component {
                 <img src={require("./images/calli-2.png")} alt="calli-1" className="img-work-large"/>
                 <img src={require("./images/calli-3.png")} alt="calli-1" className="img-work-large"/>
                 <img src={require("./images/calli-4.png")} alt="calli-1" className="img-work-large"/>
+                <img src={require("./images/TsaSocial.png")} alt="calli-1" className="img-work-large"/>
 
                 {/* {images} */}
                 {/* {images.map(obj => (

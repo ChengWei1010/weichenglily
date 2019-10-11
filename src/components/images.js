@@ -4,6 +4,7 @@ const images = [
   { src: './images/sunset.jpg', label: 'sunset' },
   { src: './images/DataDiary1.png', label: 'DataDiary1' },
   { src: './images/LogoW.png', label: 'LogoW' },
+  { src: './images/TsaSocial.png', label: 'TsaSocial' },
 ]
   
   export default images

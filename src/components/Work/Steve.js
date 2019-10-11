@@ -1,7 +1,8 @@
 import React from "react"
-import Divider from "../../components/Divider.js"
 import SectionHead from "../../components/SectionHead.js"
 import Quote from "../../components/Quote.js"
+import Divider from "../../components/Divider.js"
+import BackHome from "../../components/BackHome.js"
 
 import Process from "./img/steve/Process.svg"
 import Style from "./img/steve/Style.svg"
@@ -86,6 +87,13 @@ const bg = {
 
       <section className="section-width-full">
         <h3>AI design exploration</h3>
+        <p>
+        We mapped our AI Experience on the IBM Design thinking mural board exercise, including:
+        <ul>
+          <li><b>Define and Explore:</b> User Traits, AI data, As-is AI Opportunities</li>
+          <li><b>Ideation:</b> Big Ideas, To-Be scenario, Prototype, Roadmap</li>
+        </ul>
+        </p>
         <img src={Mural} className="img-work-large"/>
         <a target="_blank" href="https://app.mural.co/t/studentorganization2031/m/studentorganization2031/1553644853362/553946bdc643267b8e9b284d97a4602da81ac0a2">
         <div className="button">View Full Mural board</div></a>
@@ -94,12 +102,12 @@ const bg = {
       <section className="section-body-middle">
       <h2>Research Insights</h2>
         <div className="row align-center">
-          <div className="col col-50-percent">
+          <div className="card col-50-percent">
             <img src={IconInfo} className="img-work-icon"></img>
             <h3>Information Overload</h3>
             <p>It is difficult to select and prioritize to select the best and the most suitable resource for career switch preparation.</p>
           </div>
-          <div className="col col-50-percent">
+          <div className="card col-50-percent">
             <img src={IconConnection} className="img-work-icon"></img>
             <h3>Lack of Connection</h3>
             <p>Networking is important in career, however, it is hard to make the right connection for the right resources.</p>
@@ -107,17 +115,17 @@ const bg = {
         </div>
         
         <div className="row align-center">
-          <div className="col col-50-percent">
+          <div className="card col-50-percent">
             <img src={IconSoftskills} className="img-work-icon"></img>
             <h3>Soft Skills</h3>
             <p>Not only the soft skills are the part that need training,
             soft skills like collaboration and communication are important to make career switcher successful.</p>
           </div>
-          <div className="col col-50-percent">
+          <div className="card col-50-percent">
             <img src={IconDemotivated} className="img-work-icon"></img>
             <h3>Feeling Demotivated</h3>
-            <p>Is is hard to keep motivated for career switcher during the learning and preparing process,
-            they might still give up even though spending a lot of time on preparation because the lack of encouragement.</p>
+            <p>It is hard to keep motivated for career switcher during the learning and preparing process.
+            They might still give up even though spending a lot of time on preparation.</p>
           </div>                        
         </div>
       </section>
@@ -146,11 +154,12 @@ const bg = {
         <div className="col-align-right col-70-percent "><img src={HiFi} className="img-work-large"/></div>
       </section>
         
-      <section className="section-body-middle section-body-last">
+      <section className="section-body-middle">
         <iframe className="figma" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FOOsPkArv70EYKaDcqbnf7Bha%2FSteve.ai%3Fnode-id%3D20%253A1555%26viewport%3D841%252C-67%252C0.2655298113822937%26scaling%3Dscale-down" allowfullscreen></iframe>
         <iframe className="youtube" src="https://www.youtube.com/embed/v3TrLTPbZUU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </section>
       
+      <BackHome></BackHome>
 
       {/* <section className="section-body-middle section-body-last">
         <h2>Relfection</h2>
