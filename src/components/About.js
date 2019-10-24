@@ -12,7 +12,7 @@ function About(){
       <div className="col col-60-percent">
         <p>
         
-        I’m a UX designer passionate about creating empathetic experience connecting <b>people, technologies, and business</b>.
+        I’m an UX designer passionate about creating empathetic experience connecting <b>people, technologies, and business</b>.
 
         I came from a developer background and I’m currently pursuing MS degree of information studies focusing on UX Design at <b>UT Austin</b>.
                 
