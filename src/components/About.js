@@ -7,7 +7,8 @@ function About(){
     <section className="section-work-body">
       <section className="section-body-last">
       <div className="intro-home-about">
-        Hello again!<br></br>You can pronounce <mark className="mark-color">Wei</mark> like <mark className="mark-color">way</mark>.</div>
+        Hello again!<br></br>
+        You can pronounce <mark className="mark-color">Wei</mark> like <mark className="mark-color">way</mark>.</div>
       <div className="col col-60-percent">
         <p>
         
