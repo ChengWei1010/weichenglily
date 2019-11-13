@@ -17,7 +17,7 @@ function Visualbi(){
         category="UI/UX Design Internship"
         heading="Visualbi"
         intro="UX research and design for business intelligence and data visualization product on Microsoft Power BI."
-        bgcolor={bgcolor}
+        // bgcolor={bgcolor}
       />
         
     <section className="section-body-middle">

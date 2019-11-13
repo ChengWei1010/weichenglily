@@ -11,15 +11,17 @@ class Portfolio extends React.Component {
   return (
     <section className="section-body-last">
       <div className="intro-home-about">
-        Hi, I'm Wei,<br></br>an <mark className="mark-color">UX designer</mark> based in Austin, TX <Emoji symbol="🤘🏽"/><br></br>
+        <h1>Hi, I'm Wei,<br></br>an <mark className="mark-color">UX designer</mark> based in Austin, TX <Emoji symbol="🤘🏽"/><br></br>
         I am an experience explorer at the intersection of
         <br></br>technology, business, and people.
+        </h1>
       </div>
     <div className="works-container">
     
     <Link to="/recycle"><img src={RecycleProject} alt="thumbnail" className="project-block"></img></Link>
-    <Link to="/Steve"><img src={SteveProject} alt="thumbnail" className="project-block"></img></Link>
-    <a target="_blank" href="https://drive.google.com/open?id=14q--1Jai04kww3p0JD_hrt8MoGQ85b0N"><img src={QeesiProject} alt="thumbnail" className="project-block"></img></a>
+    <a target="_blank" href="https://medium.com/@weichenglily/steve-ai-a043a946ecb3"><img src={SteveProject} alt="thumbnail" className="project-block"></img></a>
+    {/* <Link to="/Steve"><img src={SteveProject} alt="thumbnail" className="project-block"></img></Link> */}
+    <a target="_blank" href="https://drive.google.com/drive/u/0/folders/1hrCC-7FqHEoZAWyiovXi7WMewpcqc0Ib"><img src={QeesiProject} alt="thumbnail" className="project-block"></img></a>
     <Link to="/Visualbi"><img src={VisualbiProject} alt="thumbnail" className="project-block"></img></Link>
     {/* <a target="_blank" href="https://drive.google.com/file/d/1Id-Vw4HyPX87aj-0kCcqqAyWDaPA3zkJ/view">
       <div className="project-block work-qeesi">

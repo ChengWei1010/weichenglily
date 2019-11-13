@@ -36,7 +36,7 @@ const bgcolor="#E3F4D8"
         category="Design Research"
         heading="Recycling Truck"
         intro="Discover and solve problem about recycling unusual waste"
-        bgcolor={bgcolor}
+        // bgcolor={bgcolor}
       />
       <section className="section-body-middle">
         <div className="col col-60-percent">

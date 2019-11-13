@@ -8,7 +8,7 @@ function SectionHead(props){
     <section className="section-head" style={bgcolor}>
         <h4>{props.category}</h4>
         <h1>{props.heading}</h1>
-        <div className="intro-portfolio">{props.intro}</div>
+        <h2>{props.intro}</h2>
     </section>
   )
 }

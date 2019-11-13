@@ -4,6 +4,7 @@ import Quote from "../../components/Quote.js"
 import Divider from "../../components/Divider.js"
 import BackHome from "../../components/BackHome.js"
 
+import Cover from "./img/steve/Cover.svg"
 import Process from "./img/steve/Process.svg"
 import Style from "./img/steve/Style.svg"
 import Interview1 from "./img/steve/Interview1.jpg"
@@ -29,25 +30,14 @@ const bg = {
       <SectionHead
         category="UX Research and Design"
         heading="Steve.ai"
-        intro="Using Artificial Intelligence to assist people to switch career."
-        bgcolor={bgcolor}    
+        intro="AI-based conversational assistant that helps people switching to tech jobs."
+        // bgcolor={bgcolor}    
       />
-
-      <section className="section-body-middle">
-        <div className="col col-60-percent">
-          <div className="box-border-left">
-            <h4>overview</h4>
-            More and more people want to switch their job.
-            However, the process can be challenging, stressful, and not everyone will end up switching their career successfully.
-            <br></br><br></br>
-            Steve.ai is an AI technology mobile application that designed to solve several pinpoint throughout this career switch process based on user research.          </div>
-        </div>
-        
-        <div className="col col-40-percent">
-          <div className="box-border-left"><h4>collaborators</h4>Esha Kothari, Anmol Khandeparker, Prajwal Pokharel</div>
-          <div className="box-border-left"><h4>role</h4>UX research, UX design</div>
-          <div className="box-border-left"><h4>time</h4>January to May, 2019</div>
-        </div>
+      <img src={Cover} className="img-work-large"/>
+      <section className="section-body-middle">        
+        <div className="box-border-left"><h4>collaborators</h4>Esha Kothari, Anmol Khandeparker, Prajwal Pokharel</div>
+        <div className="box-border-left"><h4>role</h4>UX research, UX design</div>
+        <div className="box-border-left"><h4>time</h4>January to May, 2019</div>
       </section>
 
       <section className="section-body-middle"><h2>Design Process</h2>
