@@ -22,13 +22,13 @@ function App(){
         <Header/>
 
         <Route exact path="/" component={Portfolio}></Route>
-        <Route path="/portfolio" component={Portfolio}></Route>
-        <Route path="/about" component={About}></Route>
-        <Route path="/Illustrations" component={Illustrations}></Route>
-        <Route path="/recycle" component={Recycle}></Route>
-        <Route path="/qeesi" component={Qeesi}></Route>
-        <Route path="/steve" component={Steve}></Route>
-        <Route path="/visualbi" component={Visualbi}></Route>
+        <Route exact path="/portfolio" component={Portfolio}></Route>
+        <Route exact path="/about" component={About}></Route>
+        <Route exact path="/Illustrations" component={Illustrations}></Route>
+        <Route exact path="/recycle" component={Recycle}></Route>
+        <Route exact path="/qeesi" component={Qeesi}></Route>
+        <Route exact path="/steve" component={Steve}></Route>
+        <Route exact path="/visualbi" component={Visualbi}></Route>
 
         <Footer />
 
