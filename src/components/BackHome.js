@@ -6,7 +6,7 @@ function BackHome(props){
 
   return(
     <section className="section-body-middle section-body-last">
-        <h3>thanks for reading this project!</h3>
+        <h3>thanks for reading this project.</h3>
         <a href="/"><span><FontAwesomeIcon icon={faLongArrowAltLeft}/></span>  <u>Back to home</u></a>
     </section>
   )

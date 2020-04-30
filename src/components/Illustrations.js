@@ -20,9 +20,7 @@ class Illustrations extends Component {
       } = this.props;
     return (
         <section className="section-body-middle section-body-last">
-          <div className="intro-home-about">
-            I like to do caligraphy, oil painting, poster design.
-          </div>
+            <h1>Besides UX Design, I also love caligraphy, oil painting, and doodling.</h1>
 
             <StackGrid
                 monitorImagesLoaded
@@ -49,6 +47,7 @@ class Illustrations extends Component {
                 <img src={require("./images/calli-3.png")} alt="calli-1" className="img-work-large"/>
                 <img src={require("./images/calli-4.png")} alt="calli-1" className="img-work-large"/>
                 <img src={require("./images/TsaSocial.png")} alt="calli-1" className="img-work-large"/>
+                <img src={require("./images/dd-1.png")} alt="calli-1" className="img-work-large"/>
 
                 {/* {images} */}
                 {/* {images.map(obj => (

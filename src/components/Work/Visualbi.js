@@ -1,6 +1,8 @@
 import React from "react"
 import SectionHead from "../../components/SectionHead.js"
 import Divider from "../../components/Divider.js"
+import BackHome from "../../components/BackHome.js"
+
 import Research1 from "./img/visualbi/Research1.jpg"
 import Research2 from "./img/visualbi/Research2.jpg"
 import ValQ from "./img/visualbi/ValQ.png"
@@ -37,7 +39,7 @@ function Visualbi(){
 
       <Divider></Divider>
 
-      <section className="section-body-last">
+      <section className="section-body-middle">
         <article>
           <h2>Design for valQ with product team</h2>
           <p>
@@ -55,9 +57,10 @@ function Visualbi(){
           For new feature exploration for the business model building in the visualization tool,
           I conducted small internal focus group with product users (business analyst).
           And I listed the stakeholder needs, the users’ need, and the design principles together to decide how to prioritize and design the feature.
-          <br></br><br></br>
           After conducting the basic research, I will finally create interactive prototype using Adobe XD for the feature update.
-          </p>
+
+          <br></br><br></br>
+          
 
           <div className="col col-50-percent">
             <img src={Research1} className="img-work-large"></img>
@@ -65,6 +68,7 @@ function Visualbi(){
           <div className="col col-50-percent">
             <img src={Research2} className="img-work-large"></img>
           </div>
+          </p>
         </article>
         <Divider></Divider>
         <article>
@@ -77,6 +81,7 @@ function Visualbi(){
         </article>
 
       </section>
+      <BackHome></BackHome>
     </section>
     
   )

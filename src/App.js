@@ -11,6 +11,7 @@ import About from "./components/About.js"
 import Portfolio from "./components/Portfolio.js"
 import Illustrations from "./components/Illustrations.js"
 
+import Capstone from "./components/Work/Capstone.js" 
 import Recycle from "./components/Work/Recycle.js"
 import Qeesi from "./components/Work/Qeesi.js"
 import Steve from "./components/Work/Steve.js"
@@ -25,6 +26,7 @@ function App(){
         <Route exact path="/portfolio" component={Portfolio}></Route>
         <Route exact path="/about" component={About}></Route>
         <Route exact path="/Illustrations" component={Illustrations}></Route>
+        <Route exact path="/capstone" component={Capstone}></Route>
         <Route exact path="/recycle" component={Recycle}></Route>
         <Route exact path="/qeesi" component={Qeesi}></Route>
         <Route exact path="/steve" component={Steve}></Route>
