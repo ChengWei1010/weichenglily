@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "357233d2b468e1c73c891e770cfa088a",
+    "revision": "287846cec21348654f342cfbcf20c334",
     "url": "/index.html"
   },
   {
-    "revision": "87409dfb6f767a639866",
+    "revision": "8bae7a405f39879f8b84",
     "url": "/static/css/main.50b3dff5.chunk.css"
   },
   {
-    "revision": "9ea3227a479015a55ff2",
-    "url": "/static/js/2.00bfc4b2.chunk.js"
+    "revision": "448906f9e3300d1c2365",
+    "url": "/static/js/2.54c4e1bc.chunk.js"
   },
   {
-    "revision": "87409dfb6f767a639866",
-    "url": "/static/js/main.2778d89b.chunk.js"
+    "revision": "8bae7a405f39879f8b84",
+    "url": "/static/js/main.c9f56223.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -22,6 +22,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ef4f629df038b5d78829c11edd18b650",
     "url": "/static/media/Box.ef4f629d.png"
+  },
+  {
+    "revision": "3cc0c735fa3d9ee5d4f9a0570a713bd5",
+    "url": "/static/media/CapstoneProject.3cc0c735.svg"
   },
   {
     "revision": "a097884848931263b840b53b61e31f78",
